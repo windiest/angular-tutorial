@@ -29,3 +29,4 @@ Here I applied to the AJAX, asynchronous refresh, PHP as the API data processing
 will send the API terminal to receive back information (JSON format) to return to the front, 
 the front end to do the appropriate processing
 And then displayed on the HTML.
+
