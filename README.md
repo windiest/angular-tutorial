@@ -5,7 +5,7 @@
 ![ThemeDemo.gif](http://upload-images.jianshu.io/upload_images/166866-f4a26bbeebb3fff9.gif?imageMogr2/auto-orient/strip)
 
 
-[Github](https://github.com/zzz40500/ThemeDemo)  
+  
 #前面:  
 实现的原理像我微博之前的说的那样.  
 >关于多主题实现的,我这里的做法是继承AppCompatActivity,置换了AppCompatDelegate中AppCompatViewInflater中的createView 方法.实现了对 xml 控件的控制.
@@ -165,7 +165,6 @@ WidgetFactor.getInstant().setWidgetParser(new WidgetFactor.WidgetParser() {
 
 
 第三方控件支持CircularReveal效果:  
-实现CircleRevealEnable这个接口:[模板](https://github.com/zzz40500/ThemeDemo/blob/master/%E6%A8%A1%E6%9D%BF)  
 
 ###未来可能实现的:
 1. 实现Toolbar和 menu 的日夜间切换.
