@@ -1,5 +1,0 @@
-header("Access-Control-Allow-Origin:*");首先在php中开一个类似的端口，允许前端读取这个文件不然会报这样的错误
-已阻止跨源请求：同源策略禁止读取位于 http://localhost/tuling/tuling.php?q=1 的远程资源。（原因：CORS 头缺少 'Access-Control-Allow-Origin'）。
-
-xmlhttp.open("GET", "http://localhost/tuling/tuling.php?q=" + str, true);
-其实前端写ajax这个部分一定要写清楚域名   如果只写tuling.php离开本地服务器将无法运行

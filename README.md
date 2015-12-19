@@ -1,32 +1,184 @@
-# Turing robot
-图灵机器人
+[![Android Gems](http://www.android-gems.com/badge/zzz40500/ThemeDemo.svg?branch=master)](http://www.android-gems.com/lib/zzz40500/ThemeDemo)
 
-Turing robot
+#效果图:
 
-图灵机器人是一个人工智能对话框，能对对话者做出回复
+![ThemeDemo.gif](http://upload-images.jianshu.io/upload_images/166866-f4a26bbeebb3fff9.gif?imageMogr2/auto-orient/strip)
 
-Simple communication with the dialogue
 
-它的API来自于http://www.tuling123.com
+[Github](https://github.com/zzz40500/ThemeDemo)  
+#前面:  
+实现的原理像我微博之前的说的那样.  
+>关于多主题实现的,我这里的做法是继承AppCompatActivity,置换了AppCompatDelegate中AppCompatViewInflater中的createView 方法.实现了对 xml 控件的控制.
 
-API comes from http://www.tuling123.com
 
-它的API是用来这个NAO的人工智能机器人
-NAO机器人是目前全球最先进的类人机器人，目前图灵机器人已实现对NAO机器人的技术支持，
-为NAO机器人接入了具有最佳中文语义识别能力的图灵机器人，为其安装了一颗更加智能的“智慧大脑”。
-接入了图灵机器人的NAO机器人，兼具灵活的动作及聪明的头脑，人工智能程度更上一筹。
+#实现:
+1. 实现了日夜模式的切换.(不重启 Acitivity )
+* 解决了因为快速点击 View 导致的多次响应点击事件.
+* 内部实现了 Android 5.0 的CircularReveal效果.
 
-The NAO robot is currently the world's most advanced humanoid robot, 
-at present Turing robot has achieved the NAO robot technical support, 
-for the NAO robot access with the ability to identify the best Chinese semantic Turing robot, 
-is to install a more intelligent wisdom of the brain.
-NAO robot access Turing robot, both flexible movements and clever mind, artificial intelligence is more on the edge.
+###优点:
+布局中直接使用 Android 默认的控件就可以.在解析以后会根据控件转换成支持主题切换的控件.解放冗余的名称.
+###缺点:
+暂时不支持 Menu 级的切换.
 
-在这里我运用到的是AJAX，异步刷新，PHP作为API的数据处理后台，将发送API端接受回来的信息（JSON格式）返回到前端，前端再做相应的处理
-然后再显示在html上
+###支持属性:
+View 级:  
+`nightBackground`  
+TextView 级:  
+`nightTextColor`  
+`nightTextColorHighlight`  
+`nightTextAppearance`  
+`nightTextColorLink`  
+`nightTextColorHint`  
+ListView 级:  
+`nightLVDivider`  
+LinearLayout 级别:  
+`nightDivider`  
+第三方控件支持:
+`nightBackground`  
+`nightTextColor`  
 
-Here I applied to the AJAX, asynchronous refresh, PHP as the API data processing background, 
-will send the API terminal to receive back information (JSON format) to return to the front, 
-the front end to do the appropriate processing
-And then displayed on the HTML.
+
+
+
+###gradle:
+/build.gradle
+~~~
+
+repositories {
+    maven {
+        url "https://jitpack.io"
+    }
+}
+~~~
+/app/build.gradle
+~~~
+compile 'com.github.zzz40500:ThemeDemo:0.1'
+~~~
+
+##使用方法:
+####代码上
+ Activity 继承MAppCompatActivity  
+####布局上
+~~~
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/rl"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/light_bg"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              tools:ignore="MissingPrefix"
+              app:nightBackground="@color/night_bg"
+              tools:context=".MainActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="fill_parent"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:id="@+id/tv"
+        android:layout_below="@+id/toolBar"
+        android:gravity="center"
+        android:background="@color/red"
+        android:text="TextView"
+        android:textColor="@color/normal_black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_height="100dp"
+        app:nightTextColor="@color/night_tv_color"
+        app:nightBackground="@color/night_bg"
+        />
+
+    <Button
+        android:layout_below="@+id/tv"
+        android:layout_width="fill_parent"
+        android:text="Click"
+        android:id="@+id/button"
+        android:background="@color/button_bg"
+        android:textColor="@color/normal_black"
+        android:layout_height="50dp"
+        app:nightBackground="@color/night_bg"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fb"
+        android:layout_width="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:layout_height="48dp"
+        app:backgroundTint="#ff87ffeb"
+        app:rippleColor="#33728dff"
+        android:src="@mipmap/ic_launcher"
+        android:orientation="vertical" />
+
+</RelativeLayout>
+~~~
+处女座在根控件加入`tools:ignore="MissingPrefix"`
+
+
+####切换主题方法:
+~~~
+
+
+/**
+ * 
+ * @param activity 当前 Activity
+ * @param skinStyle Dark(夜间),Light(日间)
+ * @param skinStyleChangeListener (转换监听器)
+ */
+SkinCompat.setSkinStyle(Activity activity, SkinStyle skinStyle,SkinStyleChangeListener skinStyleChangeListener) 
+~~~
+
+####使用CircularReveal 效果:
+5.0 上面用的是原生的 api,5.0下面才是自己的实现的方法.
+~~~
+ 
+
+CRAnimation crA =
+        new CircularRevealCompat(mRl).circularReveal(
+                mFloatingActionButton.getLeft() + mFloatingActionButton.getWidth() / 2, mFloatingActionButton.getTop() + mFloatingActionButton.getHeight() / 2, 0, mRl.getHeight());
+
+if (crA != null)
+    crA.start();
+~~~
+
+
+###扩展:
+支持对原生控件的解析时期替换:
+~~~
+这边很奇葩的把 TextView 变成了 EditText 控件,只是为了替换而替换.
+WidgetFactor.getInstant().setWidgetParser(new WidgetFactor.WidgetParser() {
+    @Override
+    public View parseWidget(String name, Context context, AttributeSet attrs) {
+        //布局中的名称
+        if (name.equals("TextView")) {
+            return new EditText(context, attrs);
+        }
+        //返回 null 则不替换.
+        return null;
+    }
+});
+~~~
+
+
+第三方控件支持CircularReveal效果:  
+实现CircleRevealEnable这个接口:[模板](https://github.com/zzz40500/ThemeDemo/blob/master/%E6%A8%A1%E6%9D%BF)  
+
+###未来可能实现的:
+1. 实现Toolbar和 menu 的日夜间切换.
+* 替换CircularReveal算法 . 
+* 出个轻量的,不带日夜间切换的库.
+
+#尾巴:  
+1. 实现原理主要是受到代码家在[Google I/O 2015 为 Android 开发者带来了哪些福利](http://www.jianshu.com/p/4f7f55471da2)里面的启发.  
+* 我在项目中也仅仅只是用在解决快速点击 View 导致的多响应,和使用CircularReveal效果.日夜间模式并没有这个需求.  
+
+
+
+
+
+
 
