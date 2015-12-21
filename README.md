@@ -7,7 +7,6 @@
 
   
 #前面:  
-实现的原理像我微博之前的说的那样.  
 >关于多主题实现的,我这里的做法是继承AppCompatActivity,置换了AppCompatDelegate中AppCompatViewInflater中的createView 方法.实现了对 xml 控件的控制.
 
 
