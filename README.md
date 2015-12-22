@@ -1,3 +1,9 @@
+>开了交流群啦，欢迎加入交流心得
+>
+>http://jq.qq.com/?_wv=1027&k=iRLQRp
+>
+>QQ群365780609
+
 [![Android Gems](http://www.android-gems.com/badge/zzz40500/ThemeDemo.svg?branch=master)](http://www.android-gems.com/lib/zzz40500/ThemeDemo)
 
 #效果图:
