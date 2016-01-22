@@ -20,8 +20,8 @@ Record of my life, and share some knowledge
 <body class="home blog logged-in ui-c3">
 <section class="container">
 <header class="header">
-	<h1 class="logo"><a href="http://www.autumnswind.cn" title="AutumnsWind-爱抱熊">AutumnsWind</a></h1>	<ul class="nav"><li class="page_item page-item-15"><a href="http://www.autumnswind.cn/%e4%bd%a0%e5%a5%bd/">关于我</a></li>
-</ul>	<div class="feeds">
+	<h1 class="logo"><a href="http://www.autumnswind.cn" title="AutumnsWind-爱抱熊">AutumnsWind</a></h1>
+	<div class="feeds">
 <a class="feed feed-rss" rel="external nofollow" href="http://www.autumnswind.cn/feed/" target="_blank"><i></i>RSS订阅</a>
 			</div>
 	<div class="slinks">
