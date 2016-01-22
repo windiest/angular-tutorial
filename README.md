@@ -11,7 +11,7 @@ Record of my life, and share some knowledge
 <script type="text/javascript" src="http://www.autumnswind.cn/wp-content/themes/xiu/js/jquery.js?ver=2.1"></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.autumnswind.cn/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.autumnswind.cn/wp-includes/wlwmanifest.xml"> 
-<style>a:hover, a:focus,.post-like.actived,.excerpt h2 a:hover,.user-welcome strong,.article-title a:hover,#comments b,.text-muted a:hover,.relates a:hover,.archives .item:hover h3,.linkcat h2,.sticky a:hover,.article-content a:hover,.nav li.current-menu-item > a, .nav li.current-menu-parent > a, .nav li.current_page_item > a, .nav li.current-posa,.article-meta a:hover{color:#555555;}.logo a,.article-tags a,.search-form .btn,.widget_tags_inner a:hover:hover,.focusmo a:hover h4,.tagslist .tagname:hover,.pagination ul > li.next-page > a{background-color:#555555;}.label-important,.badge-important{background-color:#555555;}.label-important .label-arrow,.badge-important .label-arrow{border-left-color:#555555;}.title strong{border-bottom-color:#555555;}#submit{background: #555555;border-right: 2px solid #555555;border-bottom: 2px solid #555555;}</style><meta name="keywords" content="秋风,爱抱熊,莎娜,卡纳妮,autumnswind,Autumnswind,github,知乎">
+<meta name="keywords" content="秋风,爱抱熊,莎娜,卡纳妮,autumnswind,Autumnswind,github,知乎">
 <meta name="description" content="秋风 爱抱熊 莎娜 卡纳妮 autumnswind Autumnswind github 知乎">
 <!--<link rel="shortcut icon" href="http://www.autumnswind.cn/favicon.ico">-->
 <link id="favicon" href="https://assets-cdn.github.com/favicon.ico" rel="icon" type="image/x-icon">
@@ -26,7 +26,7 @@ Record of my life, and share some knowledge
 			</div>
 	<div class="slinks">
 		<h5>博主的社交账号</h5>
-<a href="https://github.com/AutumnsWind" title="Github">Github</a>|<a href="https://www.zhihu.com/people/sha-nuo-78" title="zhihu">知乎</a>|<a href="http://tieba.baidu.com/home/main?un=Kalone2012" title="链接03">贴吧</a>	</div>
+<a href="https://github.com/AutumnsWind" title="Github">Github</a>|<a href="https://www.zhihu.com/people/sha-nuo-78" title="zhihu">知乎</a>|</div>
 			<div class="user-welcome">
 			<img alt="" src="http://0.gravatar.com/avatar/c285efc5bb3363a490f7c91a9b2487ba?s=50&amp;d=http%3A%2F%2Fwww.autumnswind.cn%2Fwp-content%2Fthemes%2Fxiu%2Fimages%2Favatar-default.png%3Fs%3D50&amp;r=G" class="avatar avatar-50 photo" height="50" width="50">			<strong>AutumnsWind</strong><span class="text-muted">欢迎登录！</span>
 		</div>
