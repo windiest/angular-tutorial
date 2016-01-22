@@ -1,0 +1,711 @@
+# Serbian translation for SI CAPTCHA Anti-Spam
+# This file is put in the public domain.
+# Milan Dinić <milan@srpski.biz> 2010
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Serbian translation for WordPress.com\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/si-captcha-for-wordpress\n"
+"POT-Creation-Date: 2010-12-18 21:25+0000\n"
+"PO-Revision-Date: 2010-12-29 18:58+0100\n"
+"Last-Translator: Milan Dinić <milan@srpski.biz>\n"
+"Language-Team: srpski.biz <milan@srpski.biz>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3;    plural=n%10==1 && n%100!=11 ? 0 :    n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Poedit-Language: Serbian\n"
+"X-Poedit-Country: SERBIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: si-captcha-admin.php:14
+msgid "You do not have permissions for managing this option"
+msgstr "Немате дозволу за управљање овом могућношћу"
+
+#: si-captcha-admin.php:81
+msgid "Options saved."
+msgstr "Могућности су сачуване."
+
+#: si-captcha-admin.php:84
+#: si-captcha.php:45
+#: si-captcha.php:46
+#: si-captcha.php:49
+#: si-captcha.php:50
+#: si-captcha.php:53
+msgid "SI Captcha Options"
+msgstr "Могућности за SI Captcha"
+
+#: si-captcha-admin.php:97
+msgid "Changelog"
+msgstr "Промене"
+
+#: si-captcha-admin.php:98
+msgid "FAQ"
+msgstr "ЧПП"
+
+#: si-captcha-admin.php:99
+#: si-captcha-admin.php:196
+msgid "Rate This"
+msgstr "Оцени ово"
+
+#: si-captcha-admin.php:100
+msgid "Support"
+msgstr "Подршка"
+
+#: si-captcha-admin.php:101
+#: si-captcha-admin.php:164
+msgid "Donate"
+msgstr "Донирај"
+
+#: si-captcha-admin.php:102
+msgid "Free PHP Scripts"
+msgstr "Бесплатне PHP скрипте"
+
+#: si-captcha-admin.php:103
+msgid "Contact"
+msgstr "Контакт"
+
+#: si-captcha-admin.php:135
+#, php-format
+msgid "Downloaded %s times"
+msgstr "Преузето %s пута"
+
+#: si-captcha-admin.php:140
+#: si-captcha-admin.php:148
+#, php-format
+msgid "(Average rating based on %s ratings)"
+msgstr "(Просечна оцена заснована на %s оцењивања)"
+
+#: si-captcha-admin.php:142
+msgid "5 stars"
+msgstr "5 звездица"
+
+#: si-captcha-admin.php:143
+msgid "4 stars"
+msgstr "4 звездице"
+
+#: si-captcha-admin.php:144
+msgid "3 stars"
+msgstr "3 звездице"
+
+#: si-captcha-admin.php:145
+msgid "2 stars"
+msgstr "2 звездице"
+
+#: si-captcha-admin.php:146
+msgid "1 star"
+msgstr "1 звездица"
+
+#: si-captcha-admin.php:148
+msgid "rate"
+msgstr "оцени"
+
+#: si-captcha-admin.php:167
+msgid "Please donate to keep this plugin FREE"
+msgstr "Молимо вас да донирате да би овај додатак остао СЛОБОДАН"
+
+#: si-captcha-admin.php:168
+msgid "If you find this plugin useful to you, please consider making a small donation to help contribute to my time invested and to further development. Thanks for your kind support!"
+msgstr "Уколико мислите да је овај додатак за вас користан, молимо вас да размотрите прављење мале донације да бисте помогли мом уложеном времену и даљем развоју. Хвала вам за срдачну подршку!"
+
+#: si-captcha-admin.php:168
+msgid "More from Mike Challis"
+msgstr "Још од Мајка Чалиса"
+
+#: si-captcha-admin.php:181
+msgid "ThemeFuse Original WP Themes"
+msgstr "ThemeFuse изворне теме за Вордпрес"
+
+#: si-captcha-admin.php:182
+#, php-format
+msgid "Try <a href=\"%s\" target=\"_blank\">ThemeFuse</a>, they make some amazing original WP themes that have a cool 1 click auto install feature and excellent after care support services. Check out some of their themes!"
+msgstr "Пробајте <a href=\"%s\" target=\"_blank\">ThemeFuse</a>, они праве неке невероватне изворне теме за Вордпрес које имају одличне особине које се постављају једним притиском, као и одличну бригу о услугама подршке. Проверите неке од њихових тема!"
+
+#: si-captcha-admin.php:184
+msgid "ThemeFuse"
+msgstr "ThemeFuse"
+
+#: si-captcha-admin.php:194
+msgid "Mike Challis says: \"Hello, I have spend hundreds of hours coding this plugin just for you. If you are satisfied with my programs and support please consider making a small donation. If you are not able to, that is OK."
+msgstr "Мајк Чалис каже: \"Здраво, потрошио сам стотине сади кодирајући овај додатак за вас. Уколико сте задовољни мојим програмима и подршком молим вас да размотрите прављење мале донације. Уколико нисте у могућности, то је у реду."
+
+#: si-captcha-admin.php:195
+msgid "Most people donate $3, $5, $10, $20, or more. Though no amount is too small. Donations can be made with your PayPal account, or securely using any of the major credit cards. Please also rate my plugin.\""
+msgstr "Већина људи донира 3, 5, 10, 20 или више долара. Иако ни један износ није премали. Донације могу бити направљене преко вашег PayPal налога, или безбедно користећи било коју од главних платних картица. Молим вас да такође оцените мој додатак.\""
+
+#: si-captcha-admin.php:198
+msgid "Close this message"
+msgstr "Затвори ову поруку"
+
+#: si-captcha-admin.php:221
+msgid "I have donated to help contribute for the development of this plugin."
+msgstr "Донирао сам да бих помогао даљи развој овог додатка."
+
+#: si-captcha-admin.php:226
+msgid "Usage"
+msgstr "Коришћење"
+
+#: si-captcha-admin.php:229
+msgid "Your theme must have a"
+msgstr "Ваша тема мора да има"
+
+#: si-captcha-admin.php:229
+msgid "tag inside your comments.php form. Most themes do."
+msgstr "ознаку у свом comments.php обрасцу. Већина тема има."
+
+#: si-captcha-admin.php:230
+msgid "The best place to locate the tag is before the comment textarea, you may want to move it if it is below the comment textarea, or the captcha image and captcha code entry might display after the submit button."
+msgstr "Најбоље место за одређивање ознаке је пре поља за унос текста, можда желите да га померите уколико је испод поља за унос коментара, или се слика стопке и код стопке могу приказивати након поља за предају."
+
+#: si-captcha-admin.php:235
+msgid "Options"
+msgstr "Могућности"
+
+#: si-captcha-admin.php:238
+#: si-captcha-admin.php:517
+msgid "Update Options"
+msgstr "Ажурирај могућности"
+
+#: si-captcha-admin.php:246
+msgid "CAPTCHA:"
+msgstr "Стопка:"
+
+#: si-captcha-admin.php:248
+msgid "Test if your PHP installation will support the CAPTCHA"
+msgstr "Пробајте да ли ће ваша PHP поставка подржати стопку"
+
+#: si-captcha-admin.php:251
+msgid "CAPTCHA difficulty level:"
+msgstr "Ниво тежине стопке:"
+
+#: si-captcha-admin.php:255
+msgid "Low"
+msgstr "Низак"
+
+#: si-captcha-admin.php:256
+msgid "Medium"
+msgstr "Средњи"
+
+#: si-captcha-admin.php:257
+msgid "High"
+msgstr "Висок"
+
+#: si-captcha-admin.php:267
+#: si-captcha-admin.php:275
+#: si-captcha-admin.php:283
+#: si-captcha-admin.php:291
+#: si-captcha-admin.php:305
+#: si-captcha-admin.php:313
+#: si-captcha-admin.php:329
+#: si-captcha-admin.php:367
+#: si-captcha-admin.php:375
+#: si-captcha-admin.php:383
+#: si-captcha-admin.php:391
+#: si-captcha-admin.php:404
+#: si-captcha-admin.php:416
+#: si-captcha-admin.php:499
+msgid "Click for Help!"
+msgstr "Притисните за помоћ!"
+
+#: si-captcha-admin.php:267
+#: si-captcha-admin.php:275
+#: si-captcha-admin.php:283
+#: si-captcha-admin.php:291
+#: si-captcha-admin.php:305
+#: si-captcha-admin.php:313
+#: si-captcha-admin.php:329
+#: si-captcha-admin.php:367
+#: si-captcha-admin.php:375
+#: si-captcha-admin.php:383
+#: si-captcha-admin.php:391
+#: si-captcha-admin.php:404
+#: si-captcha-admin.php:416
+#: si-captcha-admin.php:499
+msgid "help"
+msgstr "помоћ"
+
+#: si-captcha-admin.php:269
+msgid "Changes level of distortion of the CAPTCHA image text."
+msgstr "Мења ниво извртања текста слике стопке."
+
+#: si-captcha-admin.php:274
+msgid "Enable CAPTCHA on the login form."
+msgstr "Омогући стопку у обрасцу за пријављивање."
+
+#: si-captcha-admin.php:277
+msgid "The Login form captcha is not enabled by default because it might be annoying to users. Only enable it if you are having spam problems related to bots automatically logging in."
+msgstr "Стопка у обрасцу за пријављивање није подразумевано омогућена зато што може бити досадна корисницима. Омогућите је само ако имате непожељне проблеме повезане са ботовима који се аутоматски пријављују."
+
+#: si-captcha-admin.php:282
+msgid "Enable CAPTCHA on the register form."
+msgstr "Омогући стопку у обрасцу за регистровање."
+
+#: si-captcha-admin.php:285
+msgid "Prevents automated spam bots by requiring that the user pass a CAPTCHA test before registering."
+msgstr "Спречава аутоматске ботове захтевајући да корисник прође стопкину пробу пре регистровања."
+
+#: si-captcha-admin.php:290
+msgid "Enable CAPTCHA on the comment form."
+msgstr "Омогући стопку на обрасцу за коментар."
+
+#: si-captcha-admin.php:293
+msgid "Prevents automated spam bots by requiring that the user pass a CAPTCHA test before posting comments."
+msgstr "Спречава аутоматске ботове захтевајући да корисник прође стопкину пробу пре објављивања коментара."
+
+#: si-captcha-admin.php:299
+msgid "Hide CAPTCHA for"
+msgstr "Сакриј стопку за"
+
+#: si-captcha-admin.php:300
+msgid "registered"
+msgstr "регистроване"
+
+#: si-captcha-admin.php:301
+msgid "users who can:"
+msgstr "кориснике који могу:"
+
+#: si-captcha-admin.php:304
+msgid "CSS class name for CAPTCHA input field on the comment form"
+msgstr "Име CSS класе за поље за унос стопке у обрасцу коментара"
+
+#: si-captcha-admin.php:307
+msgid "Enter a CSS class name only if your theme uses one for comment text inputs. Default is blank for none."
+msgstr "Унесите име CSS класе само ако ваша тема користи једну за унос текстова коментара. Подразумевано је празно за ништа."
+
+#: si-captcha-admin.php:312
+msgid "Change the display order of the catpcha input field on the comment form."
+msgstr "Промените поредак приказа поља за унос стопке у обрасцу коментара."
+
+#: si-captcha-admin.php:315
+msgid "Problem:"
+msgstr "Проблем:"
+
+#: si-captcha-admin.php:316
+msgid "Sometimes the captcha image and captcha input field are displayed AFTER the submit button on the comment form."
+msgstr "Некада се слика стопке и поље за унос стопке приказују НАКОН поља за предају у обрасцу коментара."
+
+#: si-captcha-admin.php:317
+msgid "Fix:"
+msgstr "Поправка:"
+
+#: si-captcha-admin.php:318
+msgid "Edit your current theme comments.php file and locate this line:"
+msgstr "Уредите датотеку comments.php своје тренутне теме и пронађите овај ред:"
+
+#: si-captcha-admin.php:320
+msgid "This tag is exactly where the captcha image and captcha code entry will display on the form, so move the line to BEFORE the comment textarea, uncheck the option box above, and the problem should be fixed."
+msgstr "Ова ознака је управо место где ће се слика стопке и унос кôда стопке приказивати у обрасцу, тако да померите ред ПРЕ поља за унос текста коментара, одштиклирајте могућност изнад и проблем би требало да буде решен."
+
+#: si-captcha-admin.php:321
+msgid "Alernately you can just check the box above and javascript will attempt to rearrange it for you, but editing the comments.php, moving the tag, and unchecking this box is the best solution."
+msgstr "Алтернативно, можете само да штиклирате кутијицу изнад и јаваскрипт ће покушати да промени распоред за вас, али уређивање датотеке comments.php, померање ознаке и одштиклирање ове кутијице је најбоље решење."
+
+#: si-captcha-admin.php:322
+msgid "Why is it better to uncheck this and move the tag? because the XHTML will no longer validate on the comment page if it is checked."
+msgstr "Зашто је боље одштиклирати ово и померити кутијицу? Зато што XHTML неће више бити исправан на страници коментара ако је штиклирано."
+
+#: si-captcha-admin.php:328
+msgid "Use CAPTCHA without PHP session."
+msgstr "Користи стопку без PHP сесије."
+
+#: si-captcha-admin.php:331
+msgid "Sometimes the CAPTCHA code never validates because of a server problem with PHP session handling. If the CAPTCHA code never validates and does not work, you can enable this setting to use files for session."
+msgstr "Некада се стопка никада не потврђује због проблема сервера са PHP сесијом. Уколико се стопка никада не потврђује и не ради, можете омогућити ово подешавање да бисте користили датотеке за сесију."
+
+#: si-captcha-admin.php:342
+#: si-captcha-admin.php:350
+#: si-captcha.php:543
+#: si-captcha.php:550
+msgid "There is a problem with the directory"
+msgstr "Постоји проблем са директоријумом"
+
+#: si-captcha-admin.php:344
+#: si-captcha.php:545
+msgid "The directory is not found, a <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"_blank\">permissions</a> problem may have prevented this directory from being created."
+msgstr "Директоријум није пронађен, проблем са <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"_blank\">дозволама</a> је можда онемогућио прављење овог директоријума."
+
+#: si-captcha-admin.php:346
+msgid "Fixing the actual problem is recommended, but you can uncheck this setting on the contact form options page: \"Use CAPTCHA without PHP session\" and the captcha will work this way just fine (as long as PHP sessions are working)."
+msgstr "Поправљање стварног проблема је препоручено али можете одштиклирати подешавање на обрасцу за контакт: \"Користи стопку PHP сесије\" и стопка ће овако радити како треба (док год PHP сесије раде)."
+
+#: si-captcha-admin.php:351
+msgid "The directory Unwritable (<a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"_blank\">fix permissions</a>)"
+msgstr "Директоријум неуписив (<a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"_blank\">поправи дозволе</a>)"
+
+#: si-captcha-admin.php:352
+#: si-captcha.php:552
+msgid "Permissions are: "
+msgstr "Дозволе су: "
+
+#: si-captcha-admin.php:356
+#: si-captcha.php:556
+msgid "Fixing this may require assigning 0755 permissions or higher (e.g. 0777 on some hosts. Try 0755 first, because 0777 is sometimes too much and will not work.)"
+msgstr "Поправљање овог можда захтева додељивање 0755 дозволе или више (нпр. 0777 на неким домаћинима. Покушјте прво 0755  зато што је 0777 некада много и неће радити.)"
+
+#: si-captcha-admin.php:358
+msgid "Fixing the actual problem is recommended, but you can uncheck this setting on the SI CAPTCHA options page: \"Use CAPTCHA without PHP session\" and the captcha will work this way just fine (as long as PHP sessions are working)."
+msgstr "Поправљање стварног проблема је препоручено али можете да одштиклирате подешавање на SI CAPTCHA страници могућности: \"Користи стопку без PHP сесије\" и стопка ће овако радити како треба (док год PHP сесије раде)."
+
+#: si-captcha-admin.php:366
+msgid "Enable Audio for the CAPTCHA."
+msgstr "Омогући звук стопке."
+
+#: si-captcha-admin.php:369
+msgid "Enables an icon so the user can listen to an audio sound of the CAPTCHA."
+msgstr "Омогућава сличицу тако да корисник може да послуша звучни запис стопке."
+
+#: si-captcha-admin.php:374
+msgid "Enable Flash Audio for the CAPTCHA."
+msgstr "Омогући звук преко флеша за стопку."
+
+#: si-captcha-admin.php:377
+msgid "Enables a flash object so the user can listen to an audio sound of the CAPTCHA without having to download the sound file."
+msgstr "Омогућава флешов објекат тако да корисник може да послуша звучни запис стопке без потребе преузимања датотеке звука."
+
+#: si-captcha-admin.php:382
+msgid "Enable smaller size CAPTCHA image."
+msgstr "Омогући мању величину слике стопке."
+
+#: si-captcha-admin.php:385
+msgid "Makes the CAPTCHA image smaller."
+msgstr "Прави слику стопке мањом."
+
+#: si-captcha-admin.php:390
+msgid "Disable CAPTCHA transparent text (only if captcha text is missing on the image, try this fix)."
+msgstr "Онемогућава провидни текст стопке (покушајте са овом поправком само ако текст стопке недостаје на слици)."
+
+#: si-captcha-admin.php:393
+msgid "Sometimes fixes missing text on the CAPTCHA image. If this does not fix missing text, your PHP server is not compatible with the CAPTCHA functions. You should have your web server fixed."
+msgstr "Понекад поправља недостајући текст на слици стопке. Уколико ово не поправља недостајући текст, ваш PHP сервер није усклађен са стопскиним функцијама. Требало би да имате поправљен веб сервер."
+
+#: si-captcha-admin.php:400
+msgid "Accessibility:"
+msgstr "Приступачност:"
+
+#: si-captcha-admin.php:403
+msgid "Enable aria-required tags for screen readers"
+msgstr "Омогући aria-required ознаке за читаче екрана"
+
+#: si-captcha-admin.php:406
+msgid "aria-required is a form input WAI ARIA tag. Screen readers use it to determine which fields are required. Enabling this is good for accessability, but will cause the HTML to fail the W3C Validation (there is no attribute \"aria-required\"). WAI ARIA attributes are soon to be accepted by the HTML validator, so you can safely ignore the validation error it will cause."
+msgstr "aria-required је унос обрасца WAI ARIA ознаке. Читачи екрана га користе да одреде која поља су неопходна. Омогућавање овога је добро за приступачност али ће изазвати да HTML не буде W3C исправан (не постоји атрибут \"aria-required\"). WAI ARIA ће ускоро бити прихваћени од стране HTML потврђивача исправности, тако да можете безбедно да занемарите грешку о исправности коју изазове."
+
+#: si-captcha-admin.php:412
+msgid "Akismet:"
+msgstr "Акисмет:"
+
+#: si-captcha-admin.php:414
+msgid "Akismet spam prevention status:"
+msgstr "Стање Акисметовог спречавања непожељних коментара:"
+
+#: si-captcha-admin.php:418
+msgid "Akismet is a WordPress plugin. Akismet will greatly reduce or even completely eliminate the comment and trackback spam you get on your site. If one does happen to get through, simply mark it as \"spam\" on the moderation screen and Akismet will learn from the mistakes. When Akismet is installed and active, all comment posts will be checked with Akismet to help prevent spam."
+msgstr "Акисмет је додатак за Вордпрес. Акисмет ће веома смањити или чак у потпуности уклонити непожељне коментаре и повратне везе које добијате на свом веб месту. Уколико се неки ипак „провуче“, једноставно га означите као „непожељан“ на екрану за управљање и Акисмет ће учити од грешки. Када је Акисмет постављен и активан, сви коментари ће бити проверени Акисметом да би помогли у спречавању непожељних коментара."
+
+#: si-captcha-admin.php:426
+msgid "Akismet is installed."
+msgstr "Акисмет је постављен."
+
+#: si-captcha-admin.php:430
+msgid "Check this and click \"Update Options\" to determine if Akismet key is active."
+msgstr "Штиклирајте ово и притисните \"Ажурирај подешавања\" да бисте одредили да ли је Акисметов кључ активан."
+
+#: si-captcha-admin.php:443
+msgid "Akismet is installed and the key is valid. Comment posts will be checked with Akismet to help prevent spam."
+msgstr "Акисмет је постављен и кључ је исправан. Коментари ће бити проверени са Акисметом да би онемогућили непожељне коментаре."
+
+#: si-captcha-admin.php:446
+msgid "Akismet plugin is installed but key needs to be activated."
+msgstr "Акисметов додатак је постављен али кључ мора бити активиран."
+
+#: si-captcha-admin.php:449
+msgid "Akismet plugin is installed but key failed to verify."
+msgstr "Акисметов додатак је постављен али потврђивање кључа није успело."
+
+#: si-captcha-admin.php:452
+msgid "Configure Akismet"
+msgstr "Подеси Акисмет"
+
+#: si-captcha-admin.php:455
+msgid "Akismet plugin is not installed or is deactivated."
+msgstr "Акисметов додатак није постављен или је искључен."
+
+#: si-captcha-admin.php:469
+msgid "Warning: Your web host has not upgraded from PHP4 to PHP5."
+msgstr "Упозорење: Ваш домаћин није ажурирао PHP4 у PHP5."
+
+#: si-captcha-admin.php:471
+msgid "PHP4 was officially discontinued August 8, 2008 and is no longer considered safe."
+msgstr "PHP4 је званично прекинут 8. августа 2008. и више се не сматра безбедним."
+
+#: si-captcha-admin.php:472
+msgid "PHP5 is faster, has more features, and is and safer. Using PHP4 might still work, but is highly discouraged. Contact your web host for support."
+msgstr "PHP5 је бржи, има више особина и безбеднији је. Коришћење PHP4 можда још увек ради али се веома не препоручује. Контактирајте свог домаћина за подршку."
+
+#: si-captcha-admin.php:476
+msgid "Click for Advanced Options"
+msgstr "Притисните за напредне могућности"
+
+#: si-captcha-admin.php:482
+msgid "Inline CSS Style:"
+msgstr "Уметнути CSS стил:"
+
+#: si-captcha-admin.php:486
+msgid "Reset the styles to default."
+msgstr "Врати на стилове на подразумевано."
+
+#: si-captcha-admin.php:488
+msgid "CSS style for CAPTCHA div:"
+msgstr "CSS стил за div стопке:"
+
+#: si-captcha-admin.php:489
+msgid "CSS style for CAPTCHA image:"
+msgstr "CSS стил за слику стопке:"
+
+#: si-captcha-admin.php:490
+msgid "CSS style for Audio image:"
+msgstr "CSS стил за звук стопке:"
+
+#: si-captcha-admin.php:491
+msgid "CSS style for Refresh image:"
+msgstr "CSS стил за слику освежавања:"
+
+#: si-captcha-admin.php:497
+msgid "Text Labels:"
+msgstr "Текстуални натписи:"
+
+#: si-captcha-admin.php:501
+msgid "Some people wanted to change the text labels. These fields can be filled in to override the standard text labels."
+msgstr "Неки људи су желели да промене текстуалне натписе. Ова поља могу бити попуњена да препишу уобичајене текстуалне натписе."
+
+#: si-captcha-admin.php:504
+#: si-captcha.php:222
+#: si-captcha.php:241
+#: si-captcha.php:305
+#: si-captcha.php:339
+#: si-captcha.php:384
+#: si-captcha.php:413
+#: si-captcha.php:446
+#: si-captcha.php:489
+#: si-captcha.php:521
+msgid "CAPTCHA Code"
+msgstr "Кôд стопке"
+
+#: si-captcha-admin.php:505
+#: si-captcha.php:973
+#: si-captcha.php:975
+msgid "CAPTCHA Image"
+msgstr "Слика стопке"
+
+#: si-captcha-admin.php:506
+#: si-captcha.php:1009
+#: si-captcha.php:1012
+msgid "CAPTCHA Audio"
+msgstr "Звук стопке"
+
+#: si-captcha-admin.php:507
+#: si-captcha.php:1021
+#: si-captcha.php:1028
+msgid "Refresh Image"
+msgstr "Освежи слику"
+
+#: si-captcha-admin.php:525
+msgid "More WordPress plugins by Mike Challis:"
+msgstr "Још додатака за Вордпрес од Мајка Чалиса:"
+
+#: si-captcha-admin.php:527
+msgid "Fast Secure Contact Form"
+msgstr "Fast Secure Contact Form"
+
+#: si-captcha-admin.php:528
+msgid "SI CAPTCHA Anti-Spam"
+msgstr "SI CAPTCHA Anti-Spam"
+
+#: si-captcha-admin.php:529
+msgid "Visitor Maps and Who's Online"
+msgstr "Visitor Maps and Who's Online"
+
+#: si-captcha-admin.php:534
+#, php-format
+msgid "\"I recommend <a href=\"%s\" target=\"_blank\">HostGator Web Hosting</a>. All my sites are hosted there. The prices are great and they offer the most features.\" - Mike Challis"
+msgstr "\"Препоручујем <a href=\"%s\" target=\"_blank\">HostGator веб домаћинство</a>. Сва моја веб места су код њих. Цене су одличне и нуде већину особина.\" - Мајк Чалис"
+
+#: si-captcha-admin.php:536
+msgid "Web Site Hosting"
+msgstr "Домаћинство веб места"
+
+#: si-captcha.php:153
+msgid "All registered users"
+msgstr "Сви регистровани корисници"
+
+#: si-captcha.php:154
+msgid "Edit posts"
+msgstr "Уредити чланке"
+
+#: si-captcha.php:155
+msgid "Publish Posts"
+msgstr "Објавити чланке"
+
+#: si-captcha.php:156
+msgid "Moderate Comments"
+msgstr "Уређивати коментаре"
+
+#: si-captcha.php:157
+msgid "Administer site"
+msgstr "Управљати веб местом"
+
+#: si-captcha.php:175
+msgid "ERROR: si-captcha.php plugin says GD image support not detected in PHP!"
+msgstr "ГРЕШКА: si-captcha.php каже да подршака за GD слике није пронађена у PHP-у!"
+
+#: si-captcha.php:176
+msgid "Contact your web host and ask them why GD image support is not enabled for PHP."
+msgstr "Контактирајте свог домаћина и питајте га зашто подршка за GD слике није омогућена за PHP."
+
+#: si-captcha.php:180
+msgid "ERROR: si-captcha.php plugin says imagepng function not detected in PHP!"
+msgstr "ГРЕШКА: si-captcha.php додатак каже да imagepng функција није пронађена у PHP-у!"
+
+#: si-captcha.php:181
+msgid "Contact your web host and ask them why imagepng function is not enabled for PHP."
+msgstr "Контактирајте свог домаћина и питајте га зашто imagepng функција није омогућена за PHP."
+
+#: si-captcha.php:185
+msgid "ERROR: si-captcha.php plugin says captcha_library not found."
+msgstr "ГРЕШКА: si-captcha.php додатак каже да captcha_library није пронађен."
+
+#: si-captcha.php:265
+msgid "Submit Comment"
+msgstr "Предај коментар"
+
+#: si-captcha.php:547
+#: si-captcha.php:558
+msgid "Fixing the actual problem is recommended, but you can uncheck this setting on the si captcha options page: \"Use CAPTCHA without PHP session\" and the captcha will work this way just fine (as long as PHP sessions are working)."
+msgstr "Поправљање стварног проблема је препоручено али можете одштиклирати ово подешавање на страници могућности за si captcha: \"Користи стопку PHP сесије\" и стопка ће овако радити како треба (док год PHP сесије раде)."
+
+#: si-captcha.php:551
+msgid "Directory Unwritable (<a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"_blank\">fix permissions</a>)"
+msgstr "Директоријум неуписив (<a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"_blank\">поправи дозволе</a>)"
+
+#: si-captcha.php:571
+#: si-captcha.php:603
+#: si-captcha.php:632
+#: si-captcha.php:665
+#: si-captcha.php:694
+#: si-captcha.php:727
+#: si-captcha.php:847
+#: si-captcha.php:856
+msgid "Please complete the CAPTCHA."
+msgstr "Молимо вас да довршите стопку."
+
+#: si-captcha.php:574
+#: si-captcha.php:635
+#: si-captcha.php:697
+#: si-captcha.php:787
+#: si-captcha.php:859
+msgid "Could not find CAPTCHA token."
+msgstr "Није могуће пронаћи стопкин жетон."
+
+#: si-captcha.php:587
+#: si-captcha.php:648
+#: si-captcha.php:710
+#: si-captcha.php:872
+msgid "That CAPTCHA was incorrect."
+msgstr "Ова стопка је неисправна."
+
+#: si-captcha.php:591
+#: si-captcha.php:652
+#: si-captcha.php:714
+#: si-captcha.php:803
+#: si-captcha.php:876
+msgid "Could not read CAPTCHA token file."
+msgstr "Није могуће прочитати стопкину датотеку жетона."
+
+#: si-captcha.php:599
+#: si-captcha.php:661
+#: si-captcha.php:723
+#: si-captcha.php:810
+#: si-captcha.php:884
+msgid "Could not read CAPTCHA cookie. Make sure you have cookies enabled and not blocking in your web browser settings. Or another plugin is conflicting. See plugin FAQ."
+msgstr "Није могуће прочитати стопкин колачић. Будите сигурни да имате омогућене колачиће а не блокирајуће у подешавањима свог прегледача веба. Или је други додатак у сукобу. Видите ЧПП додатка."
+
+#: si-captcha.php:616
+#: si-captcha.php:678
+#: si-captcha.php:741
+#: si-captcha.php:898
+msgid "That CAPTCHA was incorrect. Make sure you have not disabled cookies."
+msgstr "Ова стопка није исправна. Будите сигурни да нисте онемогућили колачиће."
+
+#: si-captcha.php:632
+#: si-captcha.php:635
+#: si-captcha.php:648
+#: si-captcha.php:652
+#: si-captcha.php:661
+#: si-captcha.php:665
+#: si-captcha.php:678
+#: si-captcha.php:694
+#: si-captcha.php:697
+#: si-captcha.php:710
+#: si-captcha.php:714
+#: si-captcha.php:723
+#: si-captcha.php:727
+#: si-captcha.php:741
+#: si-captcha.php:787
+#: si-captcha.php:803
+#: si-captcha.php:810
+#: si-captcha.php:847
+#: si-captcha.php:856
+#: si-captcha.php:859
+#: si-captcha.php:872
+#: si-captcha.php:876
+#: si-captcha.php:884
+#: si-captcha.php:898
+msgid "ERROR"
+msgstr "ГРЕШКА"
+
+#: si-captcha.php:785
+#: si-captcha.php:813
+msgid "Error: You did not enter a Captcha phrase. Press your browsers back button and try again."
+msgstr "Грешка: Нисте унели израз стопке. Притисните дугме у свом прегледачу веба за повратак назад и покушајте поново."
+
+#: si-captcha.php:800
+#: si-captcha.php:825
+msgid "Error: You entered in the wrong Captcha phrase. Press your browsers back button and try again."
+msgstr "Грешка: Унели сте погрешан израз стопке. Притисните дугме у свом прегледачу веба за повратак назад и покушајте поново."
+
+#: si-captcha.php:840
+msgid "<strong>ERROR</strong>: The username field is empty."
+msgstr "<strong>ГРЕПКА</strong>: Поље за корисника је празно."
+
+#: si-captcha.php:843
+msgid "<strong>ERROR</strong>: The password field is empty."
+msgstr "<strong>ГРЕШКА</strong>: Поље за лозинку је празно."
+
+#: si-captcha.php:908
+#, php-format
+msgid "<strong>ERROR</strong>: Invalid username. <a href=\"%s\" title=\"Password Lost and Found\">Lost your password</a>?"
+msgstr "<strong>ГРЕШКА</strong>: Неисправно корисничко име. <a href=\"%s\" title=\"Лозинка изгубљена и нађена\">Изгубили сте своју лозинку</a>?"
+
+#: si-captcha.php:916
+msgid "<strong>ERROR</strong>: Your account has been marked as a spammer."
+msgstr "<strong>ГРЕШКА</strong>: Ваш налог је означен као непожељан."
+
+#: si-captcha.php:922
+msgid "Site Suspended."
+msgstr "Веб место је суспендовано."
+
+#: si-captcha.php:932
+#, php-format
+msgid "<strong>ERROR</strong>: Incorrect password. <a href=\"%s\" title=\"Password Lost and Found\">Lost your password</a>?"
+msgstr "<strong>ГРЕШКА</strong>: Неисправна лозинка. <a href=\"%s\" title=\"Лозинка изгубљена и нађена\">Изгубили сте своју лозинку</a>?"
+
+#: si-captcha.php:1043
+msgid "Settings"
+msgstr "Подешавања"
+
+#, fuzzy
+#~ msgid "Comment Form Rearrange:"
+#~ msgstr "Коментара по страници:"
+
+#~ msgid "CAPTCHA Options:"
+#~ msgstr "CAPTCHA подешавања:"

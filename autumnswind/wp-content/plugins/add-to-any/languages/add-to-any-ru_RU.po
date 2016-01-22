@@ -1,0 +1,323 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: add-to-any\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-02 21:32+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Elvis Fweb <elviswebteam@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: add-to-any-wp-widget.php:55
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: add-to-any-wp-widget.php:59
+#: add-to-any.php:926
+#: add-to-any.php:1385
+#: add-to-any.php:1421
+msgid "Settings"
+msgstr "Настройки"
+
+#: add-to-any.php:387
+msgid "Share"
+msgstr "Отправить"
+
+#: add-to-any.php:388
+msgid "Save"
+msgstr "Сохранить"
+
+#: add-to-any.php:389
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#: add-to-any.php:390
+msgid "E-mail"
+msgstr "E-mail"
+
+#: add-to-any.php:391
+msgid "Bookmark"
+msgstr "В закладки!"
+
+#: add-to-any.php:392
+msgid "Show all"
+msgstr "Показать все"
+
+#: add-to-any.php:393
+msgid "Show less"
+msgstr "Показать остальное"
+
+#: add-to-any.php:394
+msgid "Find service(s)"
+msgstr "Найти сервис(ы)"
+
+#: add-to-any.php:395
+msgid "Instantly find any service to add to"
+msgstr "Найти сервис и добавить"
+
+#: add-to-any.php:396
+msgid "Powered by"
+msgstr "Работает на"
+
+#: add-to-any.php:397
+msgid "Share via e-mail"
+msgstr "Поделиться по E-mail"
+
+#: add-to-any.php:398
+msgid "Subscribe via e-mail"
+msgstr "Подписаться по E-mail"
+
+#: add-to-any.php:399
+msgid "Bookmark in your browser"
+msgstr "Добавить в закладки"
+
+#: add-to-any.php:400
+msgid "Press Ctrl+D or &#8984;+D to bookmark this page"
+msgstr "Нажмите Ctrl+В или &#8984;+D чтобы добавить эту страницу в закладки"
+
+#: add-to-any.php:401
+msgid "Add to your favorites"
+msgstr "Добавить в Избранное"
+
+#: add-to-any.php:402
+msgid "Send from any e-mail address or e-mail program"
+msgstr "Отправить через E-mail сервис"
+
+#: add-to-any.php:403
+msgid "E-mail program"
+msgstr "E-mail сервисы"
+
+#: add-to-any.php:517
+msgid "Your theme needs to be fixed. To fix your theme, use the <a href=\"theme-editor.php\">Theme Editor</a> to insert <code>&lt;?php wp_footer(); ?&gt;</code> just before the <code>&lt;/body&gt;</code> line of your theme's <code>footer.php</code> file."
+msgstr "Плагин не работает с выбранной вами темой. Чтобы исправить это воспользуйтесь <a href=\"theme-editor.php\">редактором тем</a> и введите следующий код <code>&lt;?php wp_footer(); ?&gt;</code> сразу после строки <code>&lt;/body&gt;</code>. Изменения нужно сделать в файле <code>footer.php</code>."
+
+#: add-to-any.php:534
+msgid "Your theme needs to be fixed. To fix your theme, use the <a href=\"theme-editor.php\">Theme Editor</a> to insert <code>&lt;?php wp_head(); ?&gt;</code> just before the <code>&lt;/head&gt;</code> line of your theme's <code>header.php</code> file."
+msgstr "Плагин не работает с выбранной вами темой. Чтобы исправить это, воспользуйтесь <a href=\"theme-editor.php\">редактором тем</a> и введите следующий код <code>&lt;?php wp_head(); ?&gt;</code> сразу после строки <code>&lt;/head&gt;</code>. Изменения нужно сделать в файле <code>header.php</code>."
+
+#: add-to-any.php:707
+#, php-format
+msgid "Unable to create directory %s. Is its parent directory writable by the server?"
+msgstr "Ошибка при создании папки %s. Проверьте права на родительскую папку (необходимы права на запись)."
+
+#: add-to-any.php:842
+#: add-to-any.php:978
+#: add-to-any.php:982
+#: add-to-any.php:986
+#: add-to-any.php:990
+#: add-to-any.php:1022
+msgid "Share/Bookmark"
+msgstr "В закладки!"
+
+#: add-to-any.php:866
+msgid "Settings saved."
+msgstr "Найстройки сохранены"
+
+#: add-to-any.php:887
+msgid "bottom"
+msgstr "под"
+
+#: add-to-any.php:891
+msgid "top"
+msgstr "над"
+
+#: add-to-any.php:895
+msgid "top &amp; bottom"
+msgstr "над &amp; под"
+
+#: add-to-any.php:926
+msgid "AddToAny: Share/Save "
+msgstr "СоцЗакладки: Сохранить/Отправить"
+
+#: add-to-any.php:934
+msgid "Standalone Services"
+msgstr "Используемые сервисы"
+
+#: add-to-any.php:939
+msgid "Choose the services you want below. &nbsp;Click a chosen service again to remove. &nbsp;Reorder services by dragging and dropping as they appear above."
+msgstr "Выберите из списка ниже нужные вам сервисы.&nbsp;Чтобы удалить сервис из вашего списка - нажмите на его иконку еще раз.&nbsp;Для того чтобы поменять сервисы местами в Вашем списке, просто нажмите на иконку и перетащите на нужное место."
+
+#: add-to-any.php:973
+msgid "Button"
+msgstr "Настройки вида кнопки"
+
+#: add-to-any.php:1012
+msgid "Image URL"
+msgstr "Адрес изображения"
+
+#: add-to-any.php:1019
+msgid "Text only"
+msgstr "Только текст"
+
+#: add-to-any.php:1027
+msgid "Placement"
+msgstr "Настройки расположения"
+
+#: add-to-any.php:1032
+#, php-format
+msgid "Display at the %s of posts"
+msgstr "Показать кнопки соц. закладок %s заметками"
+
+#: add-to-any.php:1039
+#, php-format
+msgid "Display at the %s of post excerpts"
+msgstr "Показать кнопки соц. закладок %s заметками"
+
+#: add-to-any.php:1046
+#, php-format
+msgid "Display at the %s of posts on the front page"
+msgstr "Показать кнопки соц. закладок %s заметками на главной странице"
+
+#: add-to-any.php:1054
+#, php-format
+msgid "Display at the %s of posts in the feed"
+msgstr "Показать кнопки соц. закладок %s заметками в ленте RSS"
+
+#: add-to-any.php:1058
+#, php-format
+msgid "Display at the %s of pages"
+msgstr "Показать кнопки соц. закладок %s страницами"
+
+#: add-to-any.php:1062
+msgid "If unchecked, be sure to place the following code in <a href=\"theme-editor.php\">your template pages</a> (within <code>index.php</code>, <code>single.php</code>, and/or <code>page.php</code>)"
+msgstr "Если ОТКЛЮЧИТЬ одну или все данные опции, Вы должны добавить код, наобходимый для корректной работы плагина, в <a href=\"theme-editor.php\">Вашу тему оформления</a> (код должен присутствовать на следующих страницах: <code>index.php</code>, <code>single.php</code>, и/или <code>page.php</code>). Код"
+
+#: add-to-any.php:1071
+msgid "Menu Style"
+msgstr "Настройки вида меню"
+
+#: add-to-any.php:1073
+msgid "Using AddToAny's Menu Styler, you can customize the colors of your Share/Save menu! When you're done, be sure to paste the generated code in the <a href=\"#\" onclick=\"document.getElementById('A2A_SHARE_SAVE_additional_js_variables').focus();return false\">Additional Options</a> box below."
+msgstr "Используйте этот инструмент для того, чтобы сделать Ваше меню плагина СоцЗакладки уникальным в плане внешнего вида! Закончив настройки цветовой схемы, вставте полученный код в поле <a href=\"#\" onclick=\"document.getElementById('A2A_SHARE_SAVE_additional_js_variables').focus();return false\">Дополнительные настройки</a>."
+
+#: add-to-any.php:1075
+msgid "Open the AddToAny Menu Styler in a new window"
+msgstr "Открыть меню стилей для плагина СоцЗакладки в новом окне"
+
+#: add-to-any.php:1077
+msgid "Open Menu Styler"
+msgstr "Открыть редактор внешнего вида (в новом окне)"
+
+#: add-to-any.php:1082
+msgid "Menu Options"
+msgstr "Настройки меню"
+
+#: add-to-any.php:1087
+msgid "Only show the menu when the user clicks the Share/Save button"
+msgstr "Показывать меню плагина только если пользователь нажмет на кнопку СоцЗакладки"
+
+#: add-to-any.php:1092
+msgid "Show the title of the post (or page) within the menu"
+msgstr "Показывать название заметки или страницы в меню плагина"
+
+#: add-to-any.php:1097
+msgid "Additional Options"
+msgstr "Дополнительные настройки"
+
+#: add-to-any.php:1101
+msgid "Paste the code from AddToAny's Menu Styler in the box below!"
+msgstr "Вставте в поле ниже полученный код для изменения внешнего вида меню плагина!"
+
+#: add-to-any.php:1105
+msgid "Below you can set special JavaScript variables to apply to each Share/Save menu."
+msgstr "В поле ниже вы можете вставить полученный код, который изменит внешний вид меню плагина. "
+
+#: add-to-any.php:1106
+msgid "Advanced users might want to explore AddToAny's <a href=\"http://www.addtoany.com/buttons/customize/\" target=\"_blank\">additional options</a>."
+msgstr "Если Вы хотите узнать больше про технологии, используемые в плагине, читайте заметку о <a href=\"http://www.addtoany.com/buttons/customize/\" target=\"_blank\">JavaScript API</a>."
+
+#: add-to-any.php:1112
+msgid "<strong>Note</strong>: If you're adding new code, be careful not to accidentally overwrite any previous code.</label>"
+msgstr "<strong>Обратите внимание</strong>: Добавляйте новый код осторожно, Ваш предыдущий вариант кода не будет сохранен!</label>"
+
+#: add-to-any.php:1117
+msgid "Advanced Options"
+msgstr "Дополнительные настройки"
+
+#: add-to-any.php:1122
+msgid "Use CSS stylesheet"
+msgstr "Использовать стиль CSS"
+
+#: add-to-any.php:1127
+msgid "Cache AddToAny locally with daily cache updates"
+msgstr "Использовать опции кеширования для СоцЗакладки"
+
+#: add-to-any.php:1131
+msgid "Only consider for sites with frequently returning visitors. Since many visitors will have AddToAny cached in their browser already, serving AddToAny locally from your site will be slower for those visitors.  Be sure to set far future cache/expires headers for image files in your <code>uploads/addtoany</code> directory."
+msgstr "Рекомендуется использовать только для сайтов с постоянной (возвращающейся каждый день) аудиторией. Если пользователи уже сохраняют данные плагина СоцЗакладки в своем браузере, то время отклика сервиса СоцЗакладки увеличивается для них. Используя опцию кеширования, проверьте наличие заголовков кеша для изображений в папке <code>uploads/addtoany</code>."
+
+#: add-to-any.php:1138
+msgid "Save Changes"
+msgstr "Сохранить все изменения"
+
+#: add-to-any.php:1139
+msgid "Are you sure you want to delete all AddToAny options?"
+msgstr "Вы точно хотите удалить все настройки плагина СоцЗакладки?"
+
+#: add-to-any.php:1139
+msgid "Reset"
+msgstr "Сброс настроек"
+
+#: add-to-any.php:1144
+msgid "Like this plugin?"
+msgstr "Понравился плагин?"
+
+#: add-to-any.php:1145
+msgid "<a href=\"http://wordpress.org/extend/plugins/add-to-any/\">Give it a good rating</a> on WordPress.org."
+msgstr "<a href=\"http://wordpress.org/extend/plugins/add-to-any/\">Оцените плагин</a> на сайте WordPress.org."
+
+#: add-to-any.php:1146
+msgid "<a href=\"http://www.addtoany.com/share_save?linkname=WordPress%20Share%20%2F%20Bookmark%20Plugin%20by%20AddToAny.com&amp;linkurl=http%3A%2F%2Fwordpress.org%2Fextend%2Fplugins%2Fadd-to-any%2F\">Share it</a> with your friends."
+msgstr "<a href=\"http://www.addtoany.com/share_save?linkname=WordPress%20Share%20Plugin%20by%20AddToAny.com&amp;linkurl=http%3A%2F%2Fwordpress.org%2Fextend%2Fplugins%2Fadd-to-any%2F\">Расскажите о плагине</a> своим друзьям."
+
+#: add-to-any.php:1148
+msgid "Need support?"
+msgstr "Нужна помощь?"
+
+#: add-to-any.php:1149
+msgid "See the <a href=\"http://wordpress.org/extend/plugins/add-to-any/faq/\">FAQs</a>."
+msgstr "Смотрите <a href=\"http://wordpress.org/extend/plugins/add-to-any/faq/\">ЧАВО</a>."
+
+#: add-to-any.php:1150
+msgid "Search the <a href=\"http://wordpress.org/tags/add-to-any\">support forums</a>."
+msgstr "Ответы на свои вопросы также ищите на <a href=\"http://wordpress.org/tags/add-to-any\">форумах поддержки</a> (англ.)."
+
+#: add-to-any.php:1324
+msgid "Add/Remove Services"
+msgstr "Добавить/Удалить сервисы"
+
+#: add-to-any.php:1385
+msgid "Share/Save"
+msgstr "Сохранить/Отправить"
+
+#: add-to-any.php:1386
+msgid "AddToAny"
+msgstr "СоцЗакладки"
+
+#~ msgid "Share/Save Buttons"
+#~ msgstr "Сохранить/Отправить другу"
+
+#~ msgid ""
+#~ "Open the addtoany.com menu page in a new tab or window if the user clicks "
+#~ "the Share/Save button"
+#~ msgstr ""
+#~ "Открывать меню addtoany.com в новом окне браузера, если пользователь "
+#~ "нажал на кнопку плагина Сохранить/Отправить другу"
+
+#~ msgid "If unchecked, be sure to place the CSS in your theme's stylesheet:"
+#~ msgstr ""
+#~ "Если ОТКЛЮЧИТЬ отображение стандартного стиля CSS плагина, то для "
+#~ "корректного отображения Вам необходимо разместить код в файле CSS своей "
+#~ "темы. Код:"
+
+#~ msgid ""
+#~ "Hide embedded objects (Flash, video, etc.) that intersect with the menu "
+#~ "when displayed"
+#~ msgstr ""
+#~ "Отключать различные эффекты (Flash, видео и другие), работающие "
+#~ "параллельно с меню плагина"

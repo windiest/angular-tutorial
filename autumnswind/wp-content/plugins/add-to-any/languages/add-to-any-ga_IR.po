@@ -1,0 +1,252 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: add-to-any\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-12-18 00:13-0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sarvita Kuamri <sarvita@outshinesolutions.com>\n"
+"Language-Team: Lets Be Famous <ray.s@letsbefamous.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Language: Irish\n"
+"X-Poedit-Country: IRELAND\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: add-to-any.php:211
+msgid "Share"
+msgstr "Comhroinn"
+
+#: add-to-any.php:212
+msgid "Save"
+msgstr "Sábháil"
+
+#: add-to-any.php:213
+msgid "Subscribe"
+msgstr "Liostáil"
+
+#: add-to-any.php:214
+msgid "E-mail"
+msgstr "Ríomhphost"
+
+#: add-to-any.php:215
+msgid "Bookmark"
+msgstr "Forbairt Gréasáin"
+
+#: add-to-any.php:216
+msgid "Show all"
+msgstr "Taispeáin uile"
+
+#: add-to-any.php:217
+msgid "Show less"
+msgstr "Taispeáin níos lú"
+
+#: add-to-any.php:218
+msgid "Find service(s)"
+msgstr "Faigh seirbhís (í)"
+
+#: add-to-any.php:219
+msgid "Instantly find any service to add to"
+msgstr "Láithreach a fháil ar aon seirbhís a chur le"
+
+#: add-to-any.php:220
+msgid "Powered by"
+msgstr "Powered by"
+
+#: add-to-any.php:221
+msgid "Share via e-mail"
+msgstr "Comhroinn ríomhphost"
+
+#: add-to-any.php:222
+msgid "Subscribe via e-mail"
+msgstr "Liostáil ríomhphost"
+
+#: add-to-any.php:223
+msgid "Bookmark in your browser"
+msgstr "Leabharmharc i do bhrabhsálaí"
+
+#: add-to-any.php:224
+msgid "Press Ctrl+D or &#8984;+D to bookmark this page"
+msgstr "Brúigh Ctrl + D nó ⌘ + D a Leabharmharcáil an leathanach"
+
+#: add-to-any.php:225
+msgid "Add to your favorites"
+msgstr "Cuir le do Favorites"
+
+#: add-to-any.php:226
+msgid "Send from any e-mail address or e-mail program"
+msgstr "Seol ó aon seoladh r-phost nó ar r-phost clár"
+
+#: add-to-any.php:227
+msgid "E-mail program"
+msgstr "R-phost clár"
+
+#: add-to-any.php:252
+msgid "Your theme needs to be fixed. To fix your theme, use the <a href=\"theme-editor.php\">Theme Editor</a> to insert <code>&lt;?php wp_footer(); ?&gt;</code> just before the <code>&lt;/body&gt;</code> line of your theme's <code>footer.php</code> file."
+msgstr "Riachtanais Do téama a bheith seasta. A shocrú do théama, bain úsáid as an <a Eagarthóir Téama href=\"theme-editor.php\">  </ a>  a chur isteach <code> <php wp_footer ();??> <Cód /> díreach roimh an <code>  </ comhlacht a> </ cód> líne footer.php <code> do théama an </ cód> comhad."
+
+#: add-to-any.php:390
+#: add-to-any.php:461
+#: add-to-any.php:465
+#: add-to-any.php:469
+#: add-to-any.php:473
+#: add-to-any.php:505
+msgid "Share/Bookmark"
+msgstr "Comhroinn / Leabharmharcanna"
+
+#: add-to-any.php:404
+msgid "Settings saved."
+msgstr "Socruithe shábháil."
+
+#: add-to-any.php:415
+msgid "Add to Any: Share/Save "
+msgstr "Cuir le Aon: Share / Save"
+
+#: add-to-any.php:415
+#: add-to-any.php:775
+#: add-to-any.php:796
+msgid "Settings"
+msgstr "Socruithe"
+
+#: add-to-any.php:425
+msgid "Standalone Services"
+msgstr "Seirbhísí standalone"
+
+#: add-to-any.php:430
+msgid "Choose the services you want below. &nbsp;Click a chosen service again to remove. &nbsp;Reorder services by dragging and dropping as they appear above."
+msgstr "Roghnaigh na seirbhísí a theastaíonn uait  thíos.  Cliceáil  ar sheirbhís  roghnaithe  arís a bhaint de.  seirbhísí a  dhéanfaidh atheagar ag tarraingt agus dropping réir mar atá siad thuas."
+
+#: add-to-any.php:456
+msgid "Button"
+msgstr "cnaipe"
+
+#: add-to-any.php:495
+msgid "Image URL"
+msgstr "íomhá URL"
+
+#: add-to-any.php:502
+msgid "Text only"
+msgstr "Téacs amháin"
+
+#: add-to-any.php:510
+msgid "Placement"
+msgstr "socrúchán"
+
+#: add-to-any.php:519
+msgid "Display Share/Save button at the bottom of posts"
+msgstr "Taispeáin Comhroinn / cnaipe Sábháil ag bun na bpost"
+
+#: add-to-any.php:526
+msgid "Display Share/Save button at the bottom of posts on the front page"
+msgstr "Taispeáin Comhroinn / cnaipe Sábháil ag bun na bpost ar an leathanach tosaigh"
+
+#: add-to-any.php:533
+msgid "Display Share/Save button at the bottom of posts in the feed"
+msgstr "Taispeáin Comhroinn / cnaipe Sábháil ag bun an post sa beatha"
+
+#: add-to-any.php:537
+msgid "Display Share/Save button at the bottom of pages"
+msgstr "Taispeáin Comhroinn / cnaipe Sábháil ag bun an leathanaigh"
+
+#: add-to-any.php:541
+msgid "If unchecked, be sure to place the following code in <a href=\"theme-editor.php\">your template pages</a> (within <code>index.php</code>, <code>single.php</code>, and/or <code>page.php</code>)"
+msgstr "Más rud é unchecked, a bheith cinnte chun an cód seo a leanas  i href=\"theme-editor.php\">  <a  leathanaigh i do teimpléad  </ a>  (de <code>  index.php  </ cód>, <code> amháin. php? </ cód>,  agus / nó  <code>  page.php  </ cód>)"
+
+#: add-to-any.php:550
+msgid "Menu Style"
+msgstr "Stíl Menu"
+
+#: add-to-any.php:552
+msgid "Using Add to Any's Menu Styler, you can customize the colors of your Share/Save menu! When you're done, be sure to paste the generated code in the <a href=\"#\" onclick=\"document.getElementById('A2A_SHARE_SAVE_additional_js_variables').focus();return false\">Additional Options</a> box below."
+msgstr "Ag baint úsáide as  Cuir le  haon ar Menu Styler, is féidir leat a shaincheapadh ar  na dathanna  de do  Comhroinn  / roghchlár Sábháil! Nuair atá tú ag déanamh, a bheith cinnte a ghreamú ar an gcód a ghintear sa  onclick=\"document.getElementById('A2A_SHARE_SAVE_additional_js_variables').focus();return  <a  href=\"#\"  Roghanna  breise  false\">  </ bosca> thíos."
+
+#: add-to-any.php:554
+msgid "Open the Add to Any Menu Styler in a new window"
+msgstr "Oscail an Cuir le aon Styler Menu in a new window"
+
+#: add-to-any.php:556
+msgid "Open Menu Styler"
+msgstr "Open Menu Styler"
+
+#: add-to-any.php:561
+msgid "Menu Options"
+msgstr "Options Menu"
+
+#: add-to-any.php:566
+msgid "Hide embedded objects (Flash, video, etc.) that intersect with the menu when displayed"
+msgstr "Folaigh rudaí leabaithe (Flash, físeáin, etc)  go Trasnaigh leis an roghchlár nuair a thaispeántar"
+
+#: add-to-any.php:571
+msgid "Show the title of the post (or page) within the menu"
+msgstr "Taispeáin teideal an phoist (nó an leathanach) laistigh den roghchlár"
+
+#: add-to-any.php:578
+msgid "Only show the menu when the user clicks the Share/Save button"
+msgstr "Ach amháin nuair a thaispeáint ar an  roghchlár  cad a tharlaíonn nuair an t-úsáideoir an Comhroinn / cnaipe Sábháil"
+
+#: add-to-any.php:584
+msgid "Open the addtoany.com menu page in a new tab or window if the user clicks the Share/Save button"
+msgstr "Oscail an leathanach roghchlár addtoany.com  i cluaisín nua nó má cad a tharlaíonn nuair fhuinneog  an t-úsáideoir an Share / Save cnaipe"
+
+#: add-to-any.php:589
+msgid "Additional Options"
+msgstr "Roghanna breise"
+
+#: add-to-any.php:593
+msgid "Paste the code from Add to Any's Menu Styler in the box below!"
+msgstr "Greamaigh an cód ó Cuir le haon ar Menu Styler sa bhosca thíos!"
+
+#: add-to-any.php:597
+msgid "Below you can set special JavaScript variables to apply to each Share/Save menu."
+msgstr "Thíos is féidir leat a leagtar athróg JavaScript speisialta iarratas a chur chuig gach  Comhroinn  / roghchlár Sábháil"
+
+#: add-to-any.php:598
+msgid "Advanced users might want to explore Add to Any's <a href=\"http://www.addtoany.com/buttons/api/\" target=\"_blank\">JavaScript API</a>."
+msgstr "D'fhéadfadh gur mhaith úsáideoirí Casta chun iniúchadh a dhéanamh Cuir le haon ar <a href=\"http://www.addtoany.com/buttons/api/\"  target=\"_blank\">  JavaScript  API </ a>."
+
+#: add-to-any.php:604
+msgid "<strong>Note</strong>: If you're adding new code, be careful not to accidentally overwrite any previous code.</label>"
+msgstr "<strong>  Nóta </ strong>:. Má tá tú ag cur cód nua, a bheith cúramach a  scríobh  trí thimpiste aon chód roimhe sin </ lipéid>"
+
+#: add-to-any.php:611
+msgid "Save Changes"
+msgstr "Athruithe Sábháil"
+
+#: add-to-any.php:616
+msgid "Like this plugin?"
+msgstr "Cosúil an mbreiseán seo?"
+
+#: add-to-any.php:617
+msgid "<a href=\"http://wordpress.org/extend/plugins/add-to-any/\">Give it a good rating</a> on WordPress.org."
+msgstr "<a href=\"http://wordpress.org/extend/plugins/add-to-any/\">Give it a good rating</a> on WordPress.org."
+
+#: add-to-any.php:618
+msgid "<a href=\"http://www.addtoany.com/share_save?linkname=WordPress%20Share%20Plugin%20by%20AddToAny.com&amp;linkurl=http%3A%2F%2Fwordpress.org%2Fextend%2Fplugins%2Fadd-to-any%2F\">Share it</a> with your friends."
+msgstr "<a href=\"http://www.addtoany.com/share_save?linkname=WordPress%20Share%20Plugin%20by%20AddToAny.com&amp;linkurl=http%3A%2F%2Fwordpress.org%2Fextend%2Fplugins%2Fadd-to-any%2F\">Share it</a> with your friends."
+
+#: add-to-any.php:620
+msgid "Need support?"
+msgstr "Tacaíocht de dhíth?"
+
+#: add-to-any.php:621
+msgid "See the <a href=\"http://wordpress.org/extend/plugins/add-to-any/faq/\">FAQs</a>."
+msgstr "Féach ar an<a href=\"http://wordpress.org/extend/plugins/add-to-any/faq/\">FAQs</a>."
+
+#: add-to-any.php:622
+msgid "Search the <a href=\"http://wordpress.org/tags/add-to-any\">support forums</a>."
+msgstr "Cuardaigh an<a href=\"http://wordpress.org/tags/add-to-any\">support forums</a>."
+
+#: add-to-any.php:729
+msgid "Add/Remove Services"
+msgstr "Cuir le / Bain Seirbhísí"
+
+#: add-to-any.php:775
+msgid "Share/Save"
+msgstr "Share / Save"
+
+#: add-to-any.php:776
+msgid "Share/Save Buttons"
+msgstr "Comhroinn / Sábháil Buttons"
+

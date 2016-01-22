@@ -1,0 +1,311 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: add-to-any\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-23 20:39-0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Pat <no@no.com>\n"
+"Language-Team: Marcis Gasuns <by.marcis@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Language: Belarusian\n"
+"X-Poedit-Country: BELARUS\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: add-to-any.php:322
+msgid "Share"
+msgstr "Падзяліць"
+
+#: add-to-any.php:323
+msgid "Save"
+msgstr "Захаваць"
+
+#: add-to-any.php:324
+msgid "Subscribe"
+msgstr "Падпісацца"
+
+#: add-to-any.php:325
+msgid "E-mail"
+msgstr "Электоронная пошта"
+
+#: add-to-any.php:326
+msgid "Bookmark"
+msgstr "Закладка"
+
+#: add-to-any.php:327
+msgid "Show all"
+msgstr "Паказаць усё"
+
+#: add-to-any.php:328
+msgid "Show less"
+msgstr "Паказаць менш"
+
+#: add-to-any.php:329
+msgid "Find service(s)"
+msgstr "Знайсці паслугу(і)"
+
+#: add-to-any.php:330
+msgid "Instantly find any service to add to"
+msgstr "Імгненна знайсці яку-небудзь паслугу, каб дадаць да"
+
+#: add-to-any.php:331
+msgid "Powered by"
+msgstr "Кіруецца"
+
+#: add-to-any.php:332
+msgid "Share via e-mail"
+msgstr "Адправіць па электроннай пошце"
+
+#: add-to-any.php:333
+msgid "Subscribe via e-mail"
+msgstr "Падпісацца па электроннай пошце"
+
+#: add-to-any.php:334
+msgid "Bookmark in your browser"
+msgstr "Закладка ў вашым браузеры"
+
+#: add-to-any.php:335
+msgid "Press Ctrl+D or &#8984;+D to bookmark this page"
+msgstr "Націсніце Ctrl+D ці Cmd+D, каб стварыць закладку гэтай старонкі"
+
+#: add-to-any.php:336
+msgid "Add to your favorites"
+msgstr "Дадаць у выбранае"
+
+#: add-to-any.php:337
+msgid "Send from any e-mail address or e-mail program"
+msgstr "Адправіць з любога пошатовага адрасу ці з паштовай праграмы"
+
+#: add-to-any.php:338
+msgid "E-mail program"
+msgstr "Паштовая праграма"
+
+#: add-to-any.php:363
+msgid "Your theme needs to be fixed. To fix your theme, use the <a href=\"theme-editor.php\">Theme Editor</a> to insert <code>&lt;?php wp_footer(); ?&gt;</code> just before the <code>&lt;/body&gt;</code> line of your theme's <code>footer.php</code> file."
+msgstr "Ваша тэма павінна быць выпраўленая. Каб выправіць вашу тэму, выкарыстайце <a href=\"theme-editor.php\"> Тэма рэдактар </ A>, каб уставіць <code> <? PHP wp_footer ();?> </ Code> незадоўга да <code> </ BODY> </ Code> лінію вашай тэмы <code> footer.php </ cod> файл."
+
+#: add-to-any.php:520
+#, php-format
+msgid "Unable to create directory %s. Is its parent directory writable by the server?"
+msgstr ""
+
+#: add-to-any.php:654
+#: add-to-any.php:778
+#: add-to-any.php:782
+#: add-to-any.php:786
+#: add-to-any.php:790
+#: add-to-any.php:822
+msgid "Share/Bookmark"
+msgstr "Закладка"
+
+#: add-to-any.php:667
+msgid "Settings saved."
+msgstr "Наладкі захаваны"
+
+#: add-to-any.php:688
+msgid "bottom"
+msgstr ""
+
+#: add-to-any.php:692
+msgid "top"
+msgstr ""
+
+#: add-to-any.php:696
+msgid "top &amp; bottom"
+msgstr ""
+
+#: add-to-any.php:727
+msgid "AddToAny: Share/Save "
+msgstr "Дадаць у любое: падзяліць/захаваць"
+
+#: add-to-any.php:727
+#: add-to-any.php:1132
+#: add-to-any.php:1163
+msgid "Settings"
+msgstr "Наладкі"
+
+#: add-to-any.php:736
+msgid "Standalone Services"
+msgstr "Дадаць/Выдаліць паслугі"
+
+#: add-to-any.php:741
+msgid "Choose the services you want below. &nbsp;Click a chosen service again to remove. &nbsp;Reorder services by dragging and dropping as they appear above."
+msgstr "Выберите услуги, которые вы хотите ниже. &nbsp;Нажмите выбранной услуги снова, чтобы удалить.&nbsp; Упорядочить услуг с помощью перетаскивания, как они появляются выше."
+
+#: add-to-any.php:773
+msgid "Button"
+msgstr "Клавіша"
+
+#: add-to-any.php:812
+msgid "Image URL"
+msgstr "URL de l'imatge"
+
+#: add-to-any.php:819
+msgid "Text only"
+msgstr "Толькт  тэкст"
+
+#: add-to-any.php:827
+msgid "Placement"
+msgstr "Размяшчэнне"
+
+#: add-to-any.php:832
+#, fuzzy, php-format
+msgid "Display at the %s of posts"
+msgstr "Паказаць  клавішу Адкрыць / Захаваць унізе запісаў"
+
+#: add-to-any.php:839
+#, php-format
+msgid "Display at the %s of post excerpts"
+msgstr ""
+
+#: add-to-any.php:846
+#, fuzzy, php-format
+msgid "Display at the %s of posts on the front page"
+msgstr "Паказаць клавішу Адкрыць/Захаваць унізе запісаў на тытульнай старонцы"
+
+#: add-to-any.php:854
+#, fuzzy, php-format
+msgid "Display at the %s of posts in the feed"
+msgstr "Отображать Поделиться/Сохранить в нижней части сообщения в ленте"
+
+#: add-to-any.php:858
+#, fuzzy, php-format
+msgid "Display at the %s of pages"
+msgstr "Паказаць клавішу Адкрыць/Захаваць унізе старонак"
+
+#: add-to-any.php:862
+msgid "If unchecked, be sure to place the following code in <a href=\"theme-editor.php\">your template pages</a> (within <code>index.php</code>, <code>single.php</code>, and/or <code>page.php</code>)"
+msgstr "Калі яе не спыніць, то не забудзьцеся змясціць наступны код у <a href=\"theme-editor.php\"> шаблон старонкі </ A> (у <code> index.php </code>, <code> сінгл. PHP </cod> і / або <code> page.php </ code>)  \t\t \t"
+
+#: add-to-any.php:871
+msgid "Menu Style"
+msgstr "Стыль меню"
+
+#: add-to-any.php:873
+msgid "Using AddToAny's Menu Styler, you can customize the colors of your Share/Save menu! When you're done, be sure to paste the generated code in the <a href=\"#\" onclick=\"document.getElementById('A2A_SHARE_SAVE_additional_js_variables').focus();return false\">Additional Options</a> box below."
+msgstr "Выкарыстанне Дадаць у любое меню Styler, вы можаце наладзіць колеры вашага Адкрыць / Захаваць мяню! Калі вы скончыце, не забудзьцеся ўставіць генераваны код у <a href=\"#\" onclick=\"document.getElementById('A2A_SHARE_SAVE_additional_js_variables').focus();return false\"> Дадатковыя параметры </ A> ніжэй."
+
+#: add-to-any.php:875
+msgid "Open the AddToAny Menu Styler in a new window"
+msgstr "Адкрыць Дадаць у меню Styler у новым акне"
+
+#: add-to-any.php:877
+msgid "Open Menu Styler"
+msgstr "Адкрыць меню  Styler"
+
+#: add-to-any.php:882
+msgid "Menu Options"
+msgstr "Меню опцый"
+
+#: add-to-any.php:887
+msgid "Only show the menu when the user clicks the Share/Save button"
+msgstr " Паказваць толькі меню, калі карыстальнік клікае клавішу Адкрыць/Захаваць"
+
+#: add-to-any.php:892
+msgid "Show the title of the post (or page) within the menu"
+msgstr "Паказаць назву запісу(альбо старонкі) без меню"
+
+#: add-to-any.php:897
+msgid "Additional Options"
+msgstr "Дадатковыя Опцыі"
+
+#: add-to-any.php:901
+msgid "Paste the code from AddToAny's Menu Styler in the box below!"
+msgstr "Уставіць код з Дадаць у любое меню Styler у поле ніжэй!"
+
+#: add-to-any.php:905
+msgid "Below you can set special JavaScript variables to apply to each Share/Save menu."
+msgstr "Ніжэй вы можаце ўсталяваць адмысловы JavaScript, які будзе ўжывацца да кожнага Адкрыць / Захаваць меню."
+
+#: add-to-any.php:906
+msgid "Advanced users might want to explore AddToAny's <a href=\"http://www.addtoany.com/buttons/customize/\" target=\"_blank\">additional options</a>."
+msgstr "Дасведчаныя карыстальнікі, магчыма, пажадаюць вывучыць Дадаць у <a href=\"http://www.addtoany.com/buttons/customize/\" target=\"_blank\"> JavaScript API </ A>."
+
+#: add-to-any.php:912
+msgid "<strong>Note</strong>: If you're adding new code, be careful not to accidentally overwrite any previous code.</label>"
+msgstr "<strong>Note</strong>: If you're adding new code, be careful not to accidentally overwrite any previous code.</label><strong>Заўвага</strong> : Калі Вы дадаеце новы код, будзьце ўважлівыя і не перапішыце выпадкова любы папярэдні код."
+
+#: add-to-any.php:917
+#, fuzzy
+msgid "Advanced Options"
+msgstr "Дадатковыя Опцыі"
+
+#: add-to-any.php:922
+msgid "Use CSS stylesheet"
+msgstr ""
+
+#: add-to-any.php:927
+msgid "Cache AddToAny locally with daily cache updates"
+msgstr ""
+
+#: add-to-any.php:931
+msgid "Only consider for sites with frequently returning visitors. Since many visitors will have AddToAny cached in their browser already, serving AddToAny locally from your site will be slower for those visitors.  Be sure to set far future cache/expires headers for image files in your <code>uploads/addtoany</code> directory."
+msgstr ""
+
+#: add-to-any.php:938
+msgid "Save Changes"
+msgstr "Захаваць змены"
+
+#: add-to-any.php:939
+msgid "Are you sure you want to delete all AddToAny options?"
+msgstr ""
+
+#: add-to-any.php:939
+msgid "Reset"
+msgstr ""
+
+#: add-to-any.php:944
+msgid "Like this plugin?"
+msgstr "Як і гэты плагін?"
+
+#: add-to-any.php:945
+msgid "<a href=\"http://wordpress.org/extend/plugins/add-to-any/\">Give it a good rating</a> on WordPress.org."
+msgstr "<a href=\"http://wordpress.org/extend/plugins/add-to-any/\">Дайте хороший рейтинг</a> на WordPress.org."
+
+#: add-to-any.php:946
+msgid "<a href=\"http://www.addtoany.com/share_save?linkname=WordPress%20Share%20%2F%20Bookmark%20Plugin%20by%20AddToAny.com&amp;linkurl=http%3A%2F%2Fwordpress.org%2Fextend%2Fplugins%2Fadd-to-any%2F\">Share it</a> with your friends."
+msgstr "<a href=\"http://www.addtoany.com/share_save?linkname=WordPress%20Share%20%2F%20Bookmark%20Plugin%20by%20AddToAny.com&amp;linkurl=http%3A%2F%2Fwordpress.org%2Fextend%2Fplugins%2Fadd-to-any%2F\">Share it</a>с друзьями."
+
+#: add-to-any.php:948
+msgid "Need support?"
+msgstr "Патрэбна падтрымка?"
+
+#: add-to-any.php:949
+msgid "See the <a href=\"http://wordpress.org/extend/plugins/add-to-any/faq/\">FAQs</a>."
+msgstr "Паглядзіце <a href=\"http://wordpress.org/extend/plugins/add-to-any/faq/\">FAQs</a>."
+
+#: add-to-any.php:950
+msgid "Search the <a href=\"http://wordpress.org/tags/add-to-any\">support forums</a>."
+msgstr "Пошук <a href=\"http://wordpress.org/tags/add-to-any\">support forums</a>."
+
+#: add-to-any.php:1075
+msgid "Add/Remove Services"
+msgstr "Дадаць/Выдаліць паслугі"
+
+#: add-to-any.php:1132
+msgid "Share/Save"
+msgstr "Адкрыць/Захаваць"
+
+#: add-to-any.php:1133
+msgid "Share/Save Buttons"
+msgstr "Кнопка Адкрыць/Захаваць"
+
+#~ msgid ""
+#~ "Open the addtoany.com menu page in a new tab or window if the user clicks "
+#~ "the Share/Save button"
+#~ msgstr ""
+#~ "Адкрыць меню addtoany.com старонкі ў новую ўкладку або акно, калі "
+#~ "карыстальнік націскае  кнопку Адкрыць/ Захаваць  \t\t \t"
+
+#~ msgid ""
+#~ "Hide embedded objects (Flash, video, etc.) that intersect with the menu "
+#~ "when displayed"
+#~ msgstr ""
+#~ "Схаваць убудаваыях аб'екты (Flash, відэа і г.д.), якія перасякаюцца з "
+#~ "меню пры адлюстраванні"
+
+#~ msgid "Services"
+#~ msgstr "Паслугі"

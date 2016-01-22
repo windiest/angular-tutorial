@@ -1,0 +1,294 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NajeeKurd\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-23 20:39-0800\n"
+"PO-Revision-Date: 2011-02-23 20:39-0800\n"
+"Last-Translator: Pat <no@no.com>\n"
+"Language-Team: NajeeKurd <lordamar@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Language: persian\n"
+"X-Poedit-Country: iran\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: add-to-any.php:322
+msgid "Share"
+msgstr "اشتراک گذاری"
+
+#: add-to-any.php:323
+msgid "Save"
+msgstr "ذخیره"
+
+#: add-to-any.php:324
+msgid "Subscribe"
+msgstr "عضویت"
+
+#: add-to-any.php:325
+msgid "E-mail"
+msgstr "ایمیل"
+
+#: add-to-any.php:326
+msgid "Bookmark"
+msgstr "نشانه گذاری"
+
+#: add-to-any.php:327
+msgid "Show all"
+msgstr "نمایش همگی"
+
+#: add-to-any.php:328
+msgid "Show less"
+msgstr "نمایش حداقل"
+
+#: add-to-any.php:329
+msgid "Find service(s)"
+msgstr "یافتن سرویس (ها)"
+
+#: add-to-any.php:330
+msgid "Instantly find any service to add to"
+msgstr "یافتن سریع دیگر سرویس ها برای اضافه کردن"
+
+#: add-to-any.php:331
+msgid "Powered by"
+msgstr "قدرت یافته از"
+
+#: add-to-any.php:332
+msgid "Share via e-mail"
+msgstr "اشتراک گذاری از طریق ایمیل (رایانامه)"
+
+#: add-to-any.php:333
+msgid "Subscribe via e-mail"
+msgstr "عضویت از طریق ایمیل (رایانامه)"
+
+#: add-to-any.php:334
+msgid "Bookmark in your browser"
+msgstr "ثبت به عنوان علاقه مندی برای مرورگر شما"
+
+#: add-to-any.php:335
+msgid "Press Ctrl+D or &#8984;+D to bookmark this page"
+msgstr "برای نشانه گذاری این صفحه Ctrl+D یا &#8984;+D را فشار دهید"
+
+#: add-to-any.php:336
+msgid "Add to your favorites"
+msgstr "اضافه کردن به علاقه مندی ها"
+
+#: add-to-any.php:337
+msgid "Send from any e-mail address or e-mail program"
+msgstr "فرستادن از طریق یک آدرس ایمیل (رایانامه)  یا هر برنامه ارسال ایمیل (رایانامه)"
+
+#: add-to-any.php:338
+msgid "E-mail program"
+msgstr "ایمیل برنامه"
+
+#: add-to-any.php:363
+msgid "Your theme needs to be fixed. To fix your theme, use the <a href=\"theme-editor.php\">Theme Editor</a> to insert <code>&lt;?php wp_footer(); ?&gt;</code> just before the <code>&lt;/body&gt;</code> line of your theme's <code>footer.php</code> file."
+msgstr "پوسته شما به تعمیر نیاز دارد. برای تعمیر پوسته ی خود، از کد زیر استفاده کنید:<a href=\"theme-editor.php\">ویرایشگر پوسته</a> برای قرار دادن<code>&lt;?php wp_footer(); ?&gt;</code>تنها قبل از <code>&lt;/body&gt;</code> خط از پوسته ی شما<code>footer.php</code> file."
+
+#: add-to-any.php:520
+#, php-format
+msgid "Unable to create directory %s. Is its parent directory writable by the server?"
+msgstr "قادر به ایجاد دایرکتوری نیست %s. آیا این دایرکتوری اولیه، برای سرور () خوانا است؟"
+
+#: add-to-any.php:654
+#: add-to-any.php:778
+#: add-to-any.php:782
+#: add-to-any.php:786
+#: add-to-any.php:790
+#: add-to-any.php:822
+msgid "Share/Bookmark"
+msgstr "اشتراک گذاری/نشانه گذاری"
+
+#: add-to-any.php:667
+msgid "Settings saved."
+msgstr "تنظیمات ذخیره شد."
+
+#: add-to-any.php:688
+msgid "bottom"
+msgstr ""
+
+#: add-to-any.php:692
+msgid "top"
+msgstr ""
+
+#: add-to-any.php:696
+msgid "top &amp; bottom"
+msgstr ""
+
+#: add-to-any.php:727
+msgid "AddToAny: Share/Save "
+msgstr "AddToAny:اشتراک گذاری/نشانه گذاری"
+
+#: add-to-any.php:727
+#: add-to-any.php:1132
+#: add-to-any.php:1163
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: add-to-any.php:736
+msgid "Standalone Services"
+msgstr "خدمات سیستم های رایج"
+
+#: add-to-any.php:741
+msgid "Choose the services you want below. &nbsp;Click a chosen service again to remove. &nbsp;Reorder services by dragging and dropping as they appear above."
+msgstr "خدماتی را که می خواهید در زیر انتخاب کنید.&nbsp; یک سرویس انتخاب دوباره برای حذف کلیک کنیدخدمات را از طریق \"کشیدن و رها کردن\" مرتب کنید. همان گونه که در بالا به نظر می رسد."
+
+#: add-to-any.php:773
+msgid "Button"
+msgstr "دکمه"
+
+#: add-to-any.php:812
+msgid "Image URL"
+msgstr "نشانی تصویر"
+
+#: add-to-any.php:819
+msgid "Text only"
+msgstr "فقط متن"
+
+#: add-to-any.php:827
+msgid "Placement"
+msgstr "قرار دادن"
+
+#: add-to-any.php:832
+#, fuzzy, php-format
+msgid "Display at the %s of posts"
+msgstr "نمایش در پایین نوشته ها"
+
+#: add-to-any.php:839
+#, fuzzy, php-format
+msgid "Display at the %s of post excerpts"
+msgstr "نمایش در پایین خلاصه نوشته"
+
+#: add-to-any.php:846
+#, fuzzy, php-format
+msgid "Display at the %s of posts on the front page"
+msgstr "نمایش در پایین نوشته ها در صفحه ی نخست"
+
+#: add-to-any.php:854
+#, fuzzy, php-format
+msgid "Display at the %s of posts in the feed"
+msgstr "نمایش در پایین نوشته ها در خوراک (فید)"
+
+#: add-to-any.php:858
+#, fuzzy, php-format
+msgid "Display at the %s of pages"
+msgstr "نمایش در پایین برگه ها"
+
+#: add-to-any.php:862
+msgid "If unchecked, be sure to place the following code in <a href=\"theme-editor.php\">your template pages</a> (within <code>index.php</code>, <code>single.php</code>, and/or <code>page.php</code>)"
+msgstr "اگر این را خالی گذاشتید، مطمئن شوید که قرار دهید کد زیر ، در <a href=\"theme-editor.php\"> پوسته ی برگه های شما(با <code>index.php</code>, <code>single.php</code>, و/یا <code>page.php</code>) "
+
+#: add-to-any.php:871
+msgid "Menu Style"
+msgstr "منوی قاب بندی"
+
+#: add-to-any.php:873
+msgid "Using AddToAny's Menu Styler, you can customize the colors of your Share/Save menu! When you're done, be sure to paste the generated code in the <a href=\"#\" onclick=\"document.getElementById('A2A_SHARE_SAVE_additional_js_variables').focus();return false\">Additional Options</a> box below."
+msgstr "از طریق این منو شما می توانید رنگ منوی اشتراک گذاری/ذخیره را شخصی کنید.هنگامی که شما این کار را انجام دادید مطمئن شوید برای چسباندن (پیست) کد اصلی را در   <a href=\"#\" onclick=\"document.getElementById('A2A_SHARE_SAVE_additional_js_variables').focus();return false\">گزینه های اضافی</a> جعبه ی زیر."
+
+#: add-to-any.php:875
+msgid "Open the AddToAny Menu Styler in a new window"
+msgstr "منوی قاب بندی AddToAny را در یک پنجره جدید باز کنید "
+
+#: add-to-any.php:877
+msgid "Open Menu Styler"
+msgstr "باز کردن منوی قاب بندی"
+
+#: add-to-any.php:882
+msgid "Menu Options"
+msgstr "گزینه ها"
+
+#: add-to-any.php:887
+msgid "Only show the menu when the user clicks the Share/Save button"
+msgstr "فقط زمانی منو را نمایش بده که کاربر بر روی دکمه اشتراک گذاری/نشانه گذاری کلیک کند."
+
+#: add-to-any.php:892
+msgid "Show the title of the post (or page) within the menu"
+msgstr "تیتر نوشته (یا برگه) را درون منو نمایش بده."
+
+#: add-to-any.php:897
+msgid "Additional Options"
+msgstr "گزینه های اضافی"
+
+#: add-to-any.php:901
+msgid "Paste the code from AddToAny's Menu Styler in the box below!"
+msgstr "کد را از منوی قاب بندیAddToAnyدر جعبه ی زیر بچسبانید"
+
+#: add-to-any.php:905
+msgid "Below you can set special JavaScript variables to apply to each Share/Save menu."
+msgstr "در زیر شما می توانید متغیرهای مخصوص جاوا اسکریپت را برای به کار بردن هر منوی اشتراک گذاری/نشانه گذاری قرار دهید. "
+
+#: add-to-any.php:906
+msgid "Advanced users might want to explore AddToAny's <a href=\"http://www.addtoany.com/buttons/customize/\" target=\"_blank\">additional options</a>."
+msgstr "کاربران پیشرفته ممکن است بخواهند در <a href=\"http://www.addtoany.com/buttons/customize/\" target=\"_blank\">گزینه های اضافی</a>کاوش کنند"
+
+#: add-to-any.php:912
+msgid "<strong>Note</strong>: If you're adding new code, be careful not to accidentally overwrite any previous code.</label>"
+msgstr "<strong>توجه</strong>:اگر شما در حال اضافه کردن کد هستید، مراقب باشید که به صورت تصادفی کدها را بر روی کدهای قبلی بازنویسی نکنید"
+
+#: add-to-any.php:917
+msgid "Advanced Options"
+msgstr "گزینه های پیشرفته"
+
+#: add-to-any.php:922
+msgid "Use CSS stylesheet"
+msgstr "استفاده از شیوه نامه CSS  "
+
+#: add-to-any.php:927
+msgid "Cache AddToAny locally with daily cache updates"
+msgstr " مسیر AddToAny را با روزانه  به روز کردن نهانگاه پنهان کنید"
+
+#: add-to-any.php:931
+msgid "Only consider for sites with frequently returning visitors. Since many visitors will have AddToAny cached in their browser already, serving AddToAny locally from your site will be slower for those visitors.  Be sure to set far future cache/expires headers for image files in your <code>uploads/addtoany</code> directory."
+msgstr "مطرح کردن فقط برای سایت های با قابلیت بازگرداندن اغلب بازدیدکنندگان.از زمانی که بسیاری از بازدیدکنندگان قبلاAddToAny را در مروگر خود پنهان کرده اندخدمتAddToAny در سایت شما برای آن بازدیدکنندگان کندتر خواهد بود.مطمئن شوید که ویژگی ها دست نیافتنی و دور سربرگ نهان سازی/منقضی برای پرونده ی تصاویر در دایرکتوری<code>uploads/addtoany</code>ی شما قرار داده می شود."
+
+#: add-to-any.php:938
+msgid "Save Changes"
+msgstr "ذحیره تغییرات"
+
+#: add-to-any.php:939
+msgid "Are you sure you want to delete all AddToAny options?"
+msgstr ""
+
+#: add-to-any.php:939
+msgid "Reset"
+msgstr ""
+
+#: add-to-any.php:944
+msgid "Like this plugin?"
+msgstr "این افزونه را دوست دارید؟"
+
+#: add-to-any.php:945
+msgid "<a href=\"http://wordpress.org/extend/plugins/add-to-any/\">Give it a good rating</a> on WordPress.org."
+msgstr "<a href=\"http://wordpress.org/extend/plugins/add-to-any/\">دادن یک امتیاز خوب</a>در  WordPress.org."
+
+#: add-to-any.php:946
+msgid "<a href=\"http://www.addtoany.com/share_save?linkname=WordPress%20Share%20%2F%20Bookmark%20Plugin%20by%20AddToAny.com&amp;linkurl=http%3A%2F%2Fwordpress.org%2Fextend%2Fplugins%2Fadd-to-any%2F\">Share it</a> with your friends."
+msgstr "<a href=\"http://www.addtoany.com/share_save?linkname=WordPress%20Share%20%2F%20Bookmark%20Plugin%20by%20AddToAny.com&amp;linkurl=http%3A%2F%2Fwordpress.org%2Fextend%2Fplugins%2Fadd-to-any%2F\">با دوستان خود به اشتراک</a> بگذارید  ترجمه افزونه<a href=\"http://najeekurd.net/farsi/\">ناجی کرد</a>."
+
+#: add-to-any.php:948
+msgid "Need support?"
+msgstr "به کمک نیاز دارید؟"
+
+#: add-to-any.php:949
+msgid "See the <a href=\"http://wordpress.org/extend/plugins/add-to-any/faq/\">FAQs</a>."
+msgstr " <a href=\"http://wordpress.org/extend/plugins/add-to-any/faq/\">پرسش و پاسخ را ببینید</a>."
+
+#: add-to-any.php:950
+msgid "Search the <a href=\"http://wordpress.org/tags/add-to-any\">support forums</a>."
+msgstr "در میان <a href=\"http://wordpress.org/tags/add-to-any\">تالار گفتمان پشتیبانی</a>جستجو کنید."
+
+#: add-to-any.php:1075
+msgid "Add/Remove Services"
+msgstr "اضافه/حذف  کردن خدمات"
+
+#: add-to-any.php:1132
+msgid "Share/Save"
+msgstr "اشتراگ گذاری/ذخیره"
+
+#: add-to-any.php:1133
+msgid "Share/Save Buttons"
+msgstr "اشتراک گذاری/ ذخیره  دکمه ها"
+

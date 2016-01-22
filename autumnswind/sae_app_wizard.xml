@@ -1,0 +1,5 @@
+<appwizard><introduction><name></name><author>wp4saetest</author><icon></icon><homepage></homepage><description><![CDATA[]]></description></introduction><platform><services><service></service><service name="wordpress"  params="数据存储">Storage</service><service size="1M">Memcache</service><service>Mysql</service></services><appconfig><tpl><![CDATA[
+name: <<appname>>
+version: <<version>>
+
+]]></tpl></appconfig></platform><code><initScript>index.php</initScript></code></appwizard>

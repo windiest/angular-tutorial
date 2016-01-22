@@ -1,0 +1,94 @@
+<style>
+#ds-export{
+	margin-bottom:3em;
+}
+.message-complete, .ds-exported .message-start, .ds-exporting .message-start, .status{
+	display:none;
+}
+.ds-exported .message-complete, .message-start, .ds-exporting .status{
+	display:block;
+}
+</style>
+<script type="text/javascript">
+function fireSyncLog(progress){
+	var $ = jQuery, total = 0;
+	$('#ds-sync .status').empty();
+	$('#ds-sync').addClass('ds-exporting');
+    var syncProgress = function () {
+		$.ajax({
+	        url:ajaxurl,
+	        data:{action: 'duoshuo_sync_log'},
+	        error:duoshuoOnError,
+	        success:function(response) {
+	        	if (response.code == 0){
+	        		if (response.count){
+		        		total += response.count;
+		        		$('#ds-sync .status').html('已经同步了' + total + '条记录');
+		        		syncProgress();
+	        		}
+	        		else{
+	        			$('#ds-sync .status').html('全部同步完成');
+	        		}
+	        	}
+	        	else{
+	        		alert(response.errorMessage);
+	        	}
+	        },
+	        dataType:'json'
+	    });
+	};
+	syncProgress();
+}
+function fireExport(){
+	var $ = jQuery;
+	$('#ds-export .status').empty();//.removeClass('ds-export-fail').html('处理中...');
+    $('#ds-export').addClass('ds-exporting');
+    $('#ds-export .status').html('开始同步 <img src="<?php echo $this->pluginDirUrl . 'images/waiting.gif';?>" />');
+    
+    var exportProgress = function (){
+    	var rdigit = /\d/;
+        $.ajax({
+            url:ajaxurl,
+            data:{action: 'duoshuo_export'},
+            error:duoshuoOnError,
+            success:function(response) {
+            	if (response.code == 0){
+            		if (rdigit.test(response.progress) && !isNaN(response.progress)){
+            	    	$('#ds-export').removeClass('ds-exporting').addClass('ds-exported');
+            		}
+            		else{
+            			var lang = {'user':'用户', 'post':'文章', 'comment':'评论'}, progress = response.progress.split('/');
+            			$('#ds-export .status').html('正在同步' + lang[progress[0]] + '/' + progress[1] + ' <img src="<?php echo $this->pluginDirUrl . 'images/waiting.gif';?>" />');
+            			exportProgress();
+            		}
+            	}
+            	else{
+                    alert(response.errorMessage);
+            	}
+            },
+            dataType:'json'
+        });
+    };
+    exportProgress();
+    return false;
+}
+function duoshuoOnError(jqXHR, textStatus){
+    switch(textStatus){
+    case 'parsererror':
+    	alert('解析错误，联系多说客服帮助解决问题：' + jqXHR.responseText);
+    	break;
+    case "abort":
+    	break;
+    case "notmodified":
+    case "error":
+    case "timeout":
+    default:
+    	var dict = {
+    		notmodified	: '没有变化',
+        	error		: '出错了',
+        	timeout		: '超时了'
+        };
+        alert(dict[textStatus] + ', 联系多说客服帮助解决问题');
+    }
+}
+</script>

@@ -1,0 +1,312 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: add-to-any in italiano\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-23 20:39-0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Gianni Diurno (aka gidibao) <gidibao[at]gmail[dot]com>\n"
+"Language-Team: Gianni Diurno | gidibao.net <gidibao[at]gmail[dot]com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: add-to-any.php:322
+msgid "Share"
+msgstr "Condividi"
+
+#: add-to-any.php:323
+msgid "Save"
+msgstr "Salva"
+
+#: add-to-any.php:324
+msgid "Subscribe"
+msgstr "Abbonati"
+
+#: add-to-any.php:325
+msgid "E-mail"
+msgstr "E-mail"
+
+#: add-to-any.php:326
+msgid "Bookmark"
+msgstr "Segnalibro"
+
+#: add-to-any.php:327
+msgid "Show all"
+msgstr "espandi"
+
+#: add-to-any.php:328
+msgid "Show less"
+msgstr "comprimi"
+
+#: add-to-any.php:329
+msgid "Find service(s)"
+msgstr "Trova servizi"
+
+#: add-to-any.php:330
+msgid "Instantly find any service to add to"
+msgstr "Trova subito un servizio da aggiungere"
+
+#: add-to-any.php:331
+msgid "Powered by"
+msgstr "Fornito da"
+
+#: add-to-any.php:332
+msgid "Share via e-mail"
+msgstr "Condividi via email"
+
+#: add-to-any.php:333
+msgid "Subscribe via e-mail"
+msgstr "Abbonati via email"
+
+#: add-to-any.php:334
+msgid "Bookmark in your browser"
+msgstr "Aggiungi ai segnalibri"
+
+#: add-to-any.php:335
+msgid "Press Ctrl+D or &#8984;+D to bookmark this page"
+msgstr "Premi Ctrl+D o Cmd+D per aggiungere questa pagina alla lista dei segnalibri"
+
+#: add-to-any.php:336
+msgid "Add to your favorites"
+msgstr "Aggiungi ai favoriti"
+
+#: add-to-any.php:337
+msgid "Send from any e-mail address or e-mail program"
+msgstr "Invia da un indirizzo email o client di posta elettronica"
+
+#: add-to-any.php:338
+msgid "E-mail program"
+msgstr "Client di posta elettronica"
+
+#: add-to-any.php:363
+msgid "Your theme needs to be fixed. To fix your theme, use the <a href=\"theme-editor.php\">Theme Editor</a> to insert <code>&lt;?php wp_footer(); ?&gt;</code> just before the <code>&lt;/body&gt;</code> line of your theme's <code>footer.php</code> file."
+msgstr "Il tuo tema deve essere aggiornato. Per apportare le modifiche necessarie, utilizza l'editor dei <a href=\"theme-editor.php\">temi</a> per inserire <code>&lt;?php wp_footer(); ?&gt;</code> subito prima del tag di chiusura <code>&lt;/body&gt;</code> presente nel file <code>footer.php</code>."
+
+#: add-to-any.php:520
+#, php-format
+msgid "Unable to create directory %s. Is its parent directory writable by the server?"
+msgstr "Impossibile creare la cartella %s. La sua cartella madre é scrivibile dal server?"
+
+#: add-to-any.php:654
+#: add-to-any.php:778
+#: add-to-any.php:782
+#: add-to-any.php:786
+#: add-to-any.php:790
+#: add-to-any.php:822
+msgid "Share/Bookmark"
+msgstr "Segnalibro"
+
+#: add-to-any.php:667
+msgid "Settings saved."
+msgstr "Le impostazioni sono state salvate"
+
+#: add-to-any.php:688
+msgid "bottom"
+msgstr "fondo"
+
+#: add-to-any.php:692
+msgid "top"
+msgstr "cima"
+
+#: add-to-any.php:696
+msgid "top &amp; bottom"
+msgstr "al fondo ed in cima"
+
+#: add-to-any.php:727
+msgid "AddToAny: Share/Save "
+msgstr "AddToAny: Condividi/Salva "
+
+#: add-to-any.php:727
+#: add-to-any.php:1132
+#: add-to-any.php:1163
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: add-to-any.php:736
+msgid "Standalone Services"
+msgstr "Servizi indipendenti"
+
+#: add-to-any.php:741
+msgid "Choose the services you want below. &nbsp;Click a chosen service again to remove. &nbsp;Reorder services by dragging and dropping as they appear above."
+msgstr "Scegli qui sotto i servizi di tuo gradimento. &nbsp;Clicca su di un servizio attivo per rimuoverlo. &nbsp;Riordina i servizi via drag and drop."
+
+#: add-to-any.php:773
+msgid "Button"
+msgstr "Pulsante"
+
+#: add-to-any.php:812
+msgid "Image URL"
+msgstr "URL immagine"
+
+#: add-to-any.php:819
+msgid "Text only"
+msgstr "Solo testo"
+
+#: add-to-any.php:827
+msgid "Placement"
+msgstr "Posizione"
+
+#: add-to-any.php:832
+#, php-format
+msgid "Display at the %s of posts"
+msgstr "Mostra in %s degli articoli"
+
+#: add-to-any.php:839
+#, php-format
+msgid "Display at the %s of post excerpts"
+msgstr "Mostra in %s ai riassunti articolo"
+
+#: add-to-any.php:846
+#, php-format
+msgid "Display at the %s of posts on the front page"
+msgstr "Mostra in %s agli articoli nella pagina principale"
+
+#: add-to-any.php:854
+#, php-format
+msgid "Display at the %s of posts in the feed"
+msgstr "Mostra nel feed in %s agli articoli"
+
+#: add-to-any.php:858
+#, php-format
+msgid "Display at the %s of pages"
+msgstr "Mostra %s delle pagine"
+
+#: add-to-any.php:862
+msgid "If unchecked, be sure to place the following code in <a href=\"theme-editor.php\">your template pages</a> (within <code>index.php</code>, <code>single.php</code>, and/or <code>page.php</code>)"
+msgstr "Se disattivata, dovrai inserire il codice qui sotto nelle <a href=\"theme-editor.php\">pagine del tuo tema</a> (in <code>index.php</code>, <code>single.php</code>, e/o <code>page.php</code>)"
+
+#: add-to-any.php:871
+msgid "Menu Style"
+msgstr "Stile menu"
+
+#: add-to-any.php:873
+msgid "Using AddToAny's Menu Styler, you can customize the colors of your Share/Save menu! When you're done, be sure to paste the generated code in the <a href=\"#\" onclick=\"document.getElementById('A2A_SHARE_SAVE_additional_js_variables').focus();return false\">Additional Options</a> box below."
+msgstr "Utilizzando il Menu Styler di AddToAny potrai personalizzare i colori del menu Share/Save! Una volta apportata la modifica, incolla il codice così ottenuto nel riquadro delle <a href=\"#\" onclick=\"document.getElementById('A2A_SHARE_SAVE_additional_js_variables').focus();return false\">Opzioni agggiuntive</a> qui sotto."
+
+#: add-to-any.php:875
+msgid "Open the AddToAny Menu Styler in a new window"
+msgstr "Apri in una nuova pagina per personalizzare il menu di AddToAny"
+
+#: add-to-any.php:877
+msgid "Open Menu Styler"
+msgstr "Stile menu"
+
+#: add-to-any.php:882
+msgid "Menu Options"
+msgstr "Opzioni menu"
+
+#: add-to-any.php:887
+msgid "Only show the menu when the user clicks the Share/Save button"
+msgstr "Mostra solamente il menu quando un utente clicca sul pulsante Share/Save"
+
+#: add-to-any.php:892
+msgid "Show the title of the post (or page) within the menu"
+msgstr "Mostra nel menu il titolo dell'articolo (o pagina)"
+
+#: add-to-any.php:897
+msgid "Additional Options"
+msgstr "Opzioni aggiuntive"
+
+#: add-to-any.php:901
+msgid "Paste the code from AddToAny's Menu Styler in the box below!"
+msgstr "Incolla nel riquadro qui sotto il nuovo codice personalizzato per il menu! "
+
+#: add-to-any.php:905
+msgid "Below you can set special JavaScript variables to apply to each Share/Save menu."
+msgstr "Qui sotto é possibile impostare delle variabili JavaScript particolari applicabili ad ogni menu Share/Save."
+
+#: add-to-any.php:906
+msgid "Advanced users might want to explore AddToAny's <a href=\"http://www.addtoany.com/buttons/customize/\" target=\"_blank\">additional options</a>."
+msgstr "Gli utenti più esperti possono prendere visione della <a href=\"http://www.addtoany.com/buttons/customize/\" target=\"_blank\">JavaScript API</a> di AddToAny."
+
+#: add-to-any.php:912
+msgid "<strong>Note</strong>: If you're adding new code, be careful not to accidentally overwrite any previous code.</label>"
+msgstr "<strong>Nota</strong>: qualora stessi aggiungendo un nnuovo codice, fai attenzione a non sovrascrivere accidentalmente ogni codice precedente.</label>"
+
+#: add-to-any.php:917
+msgid "Advanced Options"
+msgstr "Opzioni avanzate"
+
+#: add-to-any.php:922
+msgid "Use CSS stylesheet"
+msgstr "Usa foglio di stile CSS"
+
+#: add-to-any.php:927
+msgid "Cache AddToAny locally with daily cache updates"
+msgstr "Effettua localmente con aggiornamenti quotidiani la cache di AddToAny"
+
+#: add-to-any.php:931
+msgid "Only consider for sites with frequently returning visitors. Since many visitors will have AddToAny cached in their browser already, serving AddToAny locally from your site will be slower for those visitors.  Be sure to set far future cache/expires headers for image files in your <code>uploads/addtoany</code> directory."
+msgstr "Funzione risevata ai siti con traffico elevato di visitatori abituali. Sebbene un buon numero dei tuoi visitatori abbia AddToAny nella cache del proprio browser, servire localmente AddToAny potrebbe rallentare l'apertura della pagina. Accertati di impostare a far future cache/expires headers i file immagine nella tua cartella <code>uploads/addtoany</code>."
+
+#: add-to-any.php:938
+msgid "Save Changes"
+msgstr "Salva le modifiche"
+
+#: add-to-any.php:939
+msgid "Are you sure you want to delete all AddToAny options?"
+msgstr "Sei certo di volere cancellare tutti i dati di AddToAny?"
+
+#: add-to-any.php:939
+msgid "Reset"
+msgstr "Ripristina"
+
+#: add-to-any.php:944
+msgid "Like this plugin?"
+msgstr "Ti é piaciuto questo plugin?"
+
+#: add-to-any.php:945
+msgid "<a href=\"http://wordpress.org/extend/plugins/add-to-any/\">Give it a good rating</a> on WordPress.org."
+msgstr "<a href=\"http://wordpress.org/extend/plugins/add-to-any/\">Votalo</a> su WordPress.org."
+
+#: add-to-any.php:946
+msgid "<a href=\"http://www.addtoany.com/share_save?linkname=WordPress%20Share%20%2F%20Bookmark%20Plugin%20by%20AddToAny.com&amp;linkurl=http%3A%2F%2Fwordpress.org%2Fextend%2Fplugins%2Fadd-to-any%2F\">Share it</a> with your friends."
+msgstr "<a href=\"http://www.addtoany.com/share_save?linkname=WordPress%20Share%20Plugin%20by%20AddToAny.com&amp;linkurl=http%3A%2F%2Fwordpress.org%2Fextend%2Fplugins%2Fadd-to-any%2F\">Condividi</a> con i tuoi amici."
+
+#: add-to-any.php:948
+msgid "Need support?"
+msgstr "Serve aiuto?"
+
+#: add-to-any.php:949
+msgid "See the <a href=\"http://wordpress.org/extend/plugins/add-to-any/faq/\">FAQs</a>."
+msgstr "Vedi la pagina dedicata alle <a href=\"http://wordpress.org/extend/plugins/add-to-any/faq/\">FAQ</a>."
+
+#: add-to-any.php:950
+msgid "Search the <a href=\"http://wordpress.org/tags/add-to-any\">support forums</a>."
+msgstr "Effettua una ricerca nel <a href=\"http://wordpress.org/tags/add-to-any\">forum di supporto</a>."
+
+#: add-to-any.php:1075
+msgid "Add/Remove Services"
+msgstr "Aggiungi/Rimuovi i sevizi"
+
+#: add-to-any.php:1132
+msgid "Share/Save"
+msgstr "Condividi/Salva"
+
+#: add-to-any.php:1133
+msgid "Share/Save Buttons"
+msgstr "Pulsanti Condividi/Salva"
+
+#~ msgid ""
+#~ "Open the addtoany.com menu page in a new tab or window if the user clicks "
+#~ "the Share/Save button"
+#~ msgstr ""
+#~ "Apri in una nuova scheda o finestra la pagina menu di addtoany.com quando "
+#~ "un utente clicca il pulsante Share/Save"
+
+#~ msgid "If unchecked, be sure to place the CSS in your theme's stylesheet:"
+#~ msgstr ""
+#~ "Se non selezionato, aggiungi al foglio di stile del tuo tema il seguente "
+#~ "CSS:"
+
+#~ msgid ""
+#~ "Hide embedded objects (Flash, video, etc.) that intersect with the menu "
+#~ "when displayed"
+#~ msgstr ""
+#~ "Nascondi gli oggetti incorporati (Flash, video, etc.) che possono "
+#~ "interferire con la visualizzazione corretta del menu"

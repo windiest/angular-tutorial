@@ -1,0 +1,205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: si-captcha-for-wordpress\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/si-captcha-for-wordpress\n"
+"POT-Creation-Date: 2008-12-14 17:48+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: kirpi <kirpi@kirpininyeri.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Turkish\n"
+"X-Poedit-Country: TURKEY\n"
+
+#: si-captcha.php:38
+#: si-captcha.php:96
+msgid "Captcha Options"
+msgstr "Captcha Tercihleri"
+
+#: si-captcha.php:61
+msgid "You do not have permissions for managing this option"
+msgstr "Bu özelliği yönetmeye yetkiniz yok"
+
+#: si-captcha.php:93
+msgid "Options saved."
+msgstr "Tercihler kaydedildi."
+
+#: si-captcha.php:99
+msgid "Your theme must have a"
+msgstr "Temanız "
+
+#: si-captcha.php:99
+msgid "tag inside your comments.php form. Most themes do."
+msgstr "etiketi içeren bir comments.php formuna sahip olmalı. Çoğu temada bu vardır."
+
+#: si-captcha.php:100
+msgid "The best place to locate the tag is before the comment textarea, you may want to move it if it is below the comment textarea, or the captcha image and captcha code entry might display after the submit button."
+msgstr "Etiketi koymak için en uygun yer, yorum metni alanının hemen öncesidir. Yerini değiştirmenizi öneririz, zira aksi takdirde CAPTCHA resmi ve CAPTCHA kodu giriş alanı GÖNDER tuşunun altında görüntülenebilir."
+
+#: si-captcha.php:112
+msgid "CAPTCHA on Register Form:"
+msgstr "Kayıt Formunda CAPTCHA:"
+
+#: si-captcha.php:116
+msgid "Enable CAPTCHA on the register form."
+msgstr "Kayıt formunda CAPTCHA'yı etkinleştir."
+
+#: si-captcha.php:122
+msgid "CAPTCHA on Comment Form:"
+msgstr "Yorum Formunda CAPTCHA:"
+
+#: si-captcha.php:125
+msgid "Enable CAPTCHA on the comment form."
+msgstr "Yorum formunda CAPTCHA'yı etkinleştir."
+
+#: si-captcha.php:128
+msgid "Hide CAPTCHA for"
+msgstr "CAPTCHA'yı"
+
+#: si-captcha.php:129
+msgid "registered"
+msgstr "şu tür kayıtlı"
+
+#: si-captcha.php:130
+msgid "users who can:"
+msgstr "kullanıcılar için gizle:"
+
+#: si-captcha.php:137
+msgid "Comment Form Rearrange:"
+msgstr "Yorum Formunun Yeniden Sıralanması:"
+
+#: si-captcha.php:141
+msgid "Change the display order of the catpcha input field on the comment form. (see note below)."
+msgstr "Yorum formundaki CAPTCHA giriş alanının yerini değiştir. (Aşağıdaki notu okuyun)"
+
+#: si-captcha.php:147
+msgid "Problem:"
+msgstr "Sorun:"
+
+#: si-captcha.php:148
+msgid "Sometimes the captcha image and captcha input field are displayed AFTER the submit button on the comment form."
+msgstr "Bazen CAPTCHA resmi ve CAPTCHA girdi alanı yorum formunda GÖNDER tuşundan sonra görüntüleniyor."
+
+#: si-captcha.php:149
+msgid "Fix:"
+msgstr "Çözüm:"
+
+#: si-captcha.php:150
+msgid "Edit your current theme comments.php file and locate this line:"
+msgstr "Temanıza ait comments.php dosyasını düzenleyin ve şu satırı bulun:"
+
+#: si-captcha.php:152
+msgid "This tag is exactly where the captcha image and captcha code entry will display on the form, so move the line to BEFORE the comment textarea, uncheck the option box above, and the problem should be fixed."
+msgstr "Bu etiketin (tag) yeri, tam olarak CAPTCHA resminin ve CAPTCHA kodu giriş alanının görüntüleneceği yerdir. Bu sebeple, bu alanı yorum metni alanından ÖNCEYE taşıyın, yukarıdaki kutucuktaki işareti kaldırın ve sorun düzelsin."
+
+#: si-captcha.php:153
+msgid "Alernately you can just check the box above and javascript will attempt to rearrange it for you, but editing the comments.php, moving the tag, and unchecking this box is the best solution."
+msgstr "Buna alternatif olarak, yukarıdaki kutucuğu işaretleyebilir ve JAVASCRIPT aracılığıyla formun yeniden düzenlenmesini sağlayabilirsiniz. Ancak comments.php dosyasını düzenlemek ve etiketin yerini değiştirmek, ardından da yukarıdaki kutucuktaki işareti kaldırmak en iyi çözümdür."
+
+#: si-captcha.php:154
+msgid "Why is it better to uncheck this and move the tag? because the XHTML will no longer validate on the comment page if it is checked."
+msgstr "Neden burayı işaretlemek yerine etiketin yerini değiştirmelisiniz? Çünkü aksi takdirde yorum sayflarınızın XHTML uyumu bozulacaktır."
+
+#: si-captcha.php:157
+msgid "Update Options"
+msgstr "Tercihleri Değiştir"
+
+#: si-captcha.php:167
+msgid "All registered users"
+msgstr "Tüm kayıtlı kullanıcılar"
+
+#: si-captcha.php:168
+msgid "Edit posts"
+msgstr "Yazıları düzenle"
+
+#: si-captcha.php:169
+msgid "Publish Posts"
+msgstr "Yazıları Yayınla"
+
+#: si-captcha.php:170
+msgid "Moderate Comments"
+msgstr "Yorumları Denetle"
+
+#: si-captcha.php:171
+msgid "Administer site"
+msgstr "Siteyi yönet"
+
+#: si-captcha.php:190
+msgid "ERROR: si-captcha.php plugin says GD image support not detected in PHP!"
+msgstr "HATA: si-captcha.php, GD resim desteğini bulamadı!"
+
+#: si-captcha.php:191
+msgid "Contact your web host and ask them why GD image support is not enabled for PHP."
+msgstr "Web sunucusu sağlayıcınıza danışın ve GD resim desteğini etkinleştirin."
+
+#: si-captcha.php:195
+msgid "ERROR: si-captcha.php plugin says imagepng function not detected in PHP!"
+msgstr "HATA: si-captcha.php, PHP imagepng fonksiyonunu bulamadı!"
+
+#: si-captcha.php:196
+msgid "Contact your web host and ask them why imagepng function is not enabled for PHP."
+msgstr "Web sunucusu sağlayıcınıza danışın ve PHP imagepng fonksiyonunu etkinleştirin."
+
+#: si-captcha.php:200
+msgid "ERROR: si-captcha.php plugin says captcha_library not found."
+msgstr "HATA: si-captcha.php captcha_library kitaplığını bulamadı."
+
+#: si-captcha.php:234
+#: si-captcha.php:290
+msgid "CAPTCHA Image"
+msgstr "Güvenlik Kodunun Resmi"
+
+#: si-captcha.php:235
+#: si-captcha.php:291
+msgid "Audible Version of CAPTCHA"
+msgstr "Güvenlik kodunu dinle"
+
+#: si-captcha.php:236
+#: si-captcha.php:292
+msgid "Audio Version"
+msgstr "Güvenlik kodunu dinle"
+
+#: si-captcha.php:240
+#: si-captcha.php:296
+msgid "Reload Image"
+msgstr "Yeni Resim Göster"
+
+#: si-captcha.php:245
+#: si-captcha.php:301
+msgid "CAPTCHA Code (required)"
+msgstr "Üst Resimdeki Kodu Girin (Zorunlu)"
+
+#: si-captcha.php:263
+msgid "Submit Comment"
+msgstr "Yorumu Gönder"
+
+#: si-captcha.php:294
+msgid "Refresh Image"
+msgstr "Yeni Resim Göster"
+
+#: si-captcha.php:314
+#: si-captcha.php:328
+#: si-captcha.php:338
+#: si-captcha.php:351
+msgid "ERROR"
+msgstr "HATA"
+
+#: si-captcha.php:314
+#: si-captcha.php:338
+msgid "Please complete the CAPTCHA."
+msgstr "Lütfen resimdeki güvenlik kodunu (CAPTCHA kodunu) ilgili alana girin."
+
+#: si-captcha.php:328
+#: si-captcha.php:351
+msgid "That CAPTCHA was incorrect."
+msgstr "Girdiğiniz kod resimde görünenle aynı değil."
+
+#: si-captcha.php:378
+msgid "Error: You did not enter a Captcha phrase. Press your browsers back button and try again."
+msgstr "Hata: Resimdeki güvenlik kodunu ilgili alana girmediniz. Tarayıcınızın GERİ tuşuna basın ve yeniden deneyin."
+
+#: si-captcha.php:390
+msgid "Error: You entered in the wrong Captcha phrase. Press your browsers back button and try again."
+msgstr "Hata: Resimdeki güvenlik kodunu doğru girmediniz. Tarayıcınızın GERİ tuşuna basın ve yeniden deneyin."
+

@@ -1,0 +1,303 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: add-to-any\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-23 20:39-0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: yaser mohammed ahmed <fubu_sss_05@hotmail.com>\n"
+"Language-Team: Englize.com - Yaser Maadan <yaser@englize.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Language: Arabic\n"
+"X-Poedit-Country: UNITED ARAB EMIRATES\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: add-to-any.php:322
+msgid "Share"
+msgstr "نشر"
+
+#: add-to-any.php:323
+msgid "Save"
+msgstr "حفظ"
+
+#: add-to-any.php:324
+msgid "Subscribe"
+msgstr "تابع"
+
+#: add-to-any.php:325
+msgid "E-mail"
+msgstr "رسالة بريدية"
+
+#: add-to-any.php:326
+msgid "Bookmark"
+msgstr "مفضلة"
+
+#: add-to-any.php:327
+msgid "Show all"
+msgstr "عرض الكل"
+
+#: add-to-any.php:328
+msgid "Show less"
+msgstr "عرض أقل"
+
+#: add-to-any.php:329
+msgid "Find service(s)"
+msgstr "أبحث عن خدمة"
+
+#: add-to-any.php:330
+msgid "Instantly find any service to add to"
+msgstr "البحث الفوري عن اي خدمة لإضافتها الى"
+
+#: add-to-any.php:331
+msgid "Powered by"
+msgstr "بواسطة"
+
+#: add-to-any.php:332
+msgid "Share via e-mail"
+msgstr "أرسال على البريد"
+
+#: add-to-any.php:333
+msgid "Subscribe via e-mail"
+msgstr "تابع عبر البريد"
+
+#: add-to-any.php:334
+msgid "Bookmark in your browser"
+msgstr "أضف للمفضلة بالمتصفح"
+
+#: add-to-any.php:335
+msgid "Press Ctrl+D or &#8984;+D to bookmark this page"
+msgstr "أضغط Ctrl+D أو &#8984;+D لحفظ هذه الصفحة بالمفضلة"
+
+#: add-to-any.php:336
+msgid "Add to your favorites"
+msgstr "أضف لمفضلتك"
+
+#: add-to-any.php:337
+msgid "Send from any e-mail address or e-mail program"
+msgstr "أرسال من اي برنامج بريد أو أي عنوان بريدي"
+
+#: add-to-any.php:338
+msgid "E-mail program"
+msgstr "برنامج بريدي"
+
+#: add-to-any.php:363
+msgid "Your theme needs to be fixed. To fix your theme, use the <a href=\"theme-editor.php\">Theme Editor</a> to insert <code>&lt;?php wp_footer(); ?&gt;</code> just before the <code>&lt;/body&gt;</code> line of your theme's <code>footer.php</code> file."
+msgstr "تصميمك يحتاج لتعديلز لتعديل تصميمك, أستخدم <a href=\"theme-editor.php\">محرر التصميم</a> لإضافة <code>&lt;?php wp_footer(); ?&gt;</code> just before the <code>&lt;/body&gt;</code> في ملف <code>footer.php</code>."
+
+#: add-to-any.php:520
+#, php-format
+msgid "Unable to create directory %s. Is its parent directory writable by the server?"
+msgstr "لا يمكن إنشاء مجلد %s. هل الكجلد الرئيسي قابل للكتابة في السيرفر؟"
+
+#: add-to-any.php:654
+#: add-to-any.php:778
+#: add-to-any.php:782
+#: add-to-any.php:786
+#: add-to-any.php:790
+#: add-to-any.php:822
+msgid "Share/Bookmark"
+msgstr "مفضلة"
+
+#: add-to-any.php:667
+msgid "Settings saved."
+msgstr "تم حفظ الأعدادات"
+
+#: add-to-any.php:688
+msgid "bottom"
+msgstr "الأسفل"
+
+#: add-to-any.php:692
+msgid "top"
+msgstr "الأعلى"
+
+#: add-to-any.php:696
+msgid "top &amp; bottom"
+msgstr "الأعلى &amp; الأسفل"
+
+#: add-to-any.php:727
+msgid "AddToAny: Share/Save "
+msgstr "أضف إلى: نشر/حفظ"
+
+#: add-to-any.php:727
+#: add-to-any.php:1132
+#: add-to-any.php:1163
+msgid "Settings"
+msgstr "الأعدادات"
+
+#: add-to-any.php:736
+msgid "Standalone Services"
+msgstr "خدمات قائمة بذاتها"
+
+#: add-to-any.php:741
+msgid "Choose the services you want below. &nbsp;Click a chosen service again to remove. &nbsp;Reorder services by dragging and dropping as they appear above."
+msgstr "أختر الخدمات من الأسفل. &nbsp; أضغط لتختار الخدمة وأضغط مرة اخرى لألغائها. &nbsp; رتب الخدمات بأستخدام الفائرة."
+
+#: add-to-any.php:773
+msgid "Button"
+msgstr "زر"
+
+#: add-to-any.php:812
+msgid "Image URL"
+msgstr "رابط صورة"
+
+#: add-to-any.php:819
+msgid "Text only"
+msgstr "نص فقط"
+
+#: add-to-any.php:827
+msgid "Placement"
+msgstr "مكان العرض"
+
+#: add-to-any.php:832
+#, php-format
+msgid "Display at the %s of posts"
+msgstr "عرض زر نشر/حفظ في اخر تدويناتك"
+
+#: add-to-any.php:839
+#, php-format
+msgid "Display at the %s of post excerpts"
+msgstr "عرض زر نشر/حفظ في اخر المقتطفات"
+
+#: add-to-any.php:846
+#, php-format
+msgid "Display at the %s of posts on the front page"
+msgstr "عرض زر نشر/حفظ في الصفحة الرئيسية"
+
+#: add-to-any.php:854
+#, php-format
+msgid "Display at the %s of posts in the feed"
+msgstr "عرض زر نشر/حفظ في اخر تدويناتك بالخلاصات"
+
+#: add-to-any.php:858
+#, php-format
+msgid "Display at the %s of pages"
+msgstr "عرض زر نشر/حفظ في أخر الصفحات"
+
+#: add-to-any.php:862
+msgid "If unchecked, be sure to place the following code in <a href=\"theme-editor.php\">your template pages</a> (within <code>index.php</code>, <code>single.php</code>, and/or <code>page.php</code>)"
+msgstr "إن لم تختار احد هذه الخيارات فتأكد ان تضع الكود بواسطة <a href=\"theme-editor.php\">محرر التصميم</a> (في <code>index.php</code>, <code>single.php</code>, و/أو <code>page.php</code>)"
+
+#: add-to-any.php:871
+msgid "Menu Style"
+msgstr "تصميم القائمة"
+
+#: add-to-any.php:873
+msgid "Using AddToAny's Menu Styler, you can customize the colors of your Share/Save menu! When you're done, be sure to paste the generated code in the <a href=\"#\" onclick=\"document.getElementById('A2A_SHARE_SAVE_additional_js_variables').focus();return false\">Additional Options</a> box below."
+msgstr "أستخدم محرر تصميم أضف إلى, يمكنك تخصيص الألوان لقائمة نشر/حفظ! عند إنتهائك, تأكد من لصق الكود في مربع <a href=\"#\" onclick=\"document.getElementById('A2A_SHARE_SAVE_additional_js_variables').focus();return false\">الخيارات الخاصة</a>"
+
+#: add-to-any.php:875
+msgid "Open the AddToAny Menu Styler in a new window"
+msgstr "فتح قائمة تصميم أضف إلى في نافذة جديدة"
+
+#: add-to-any.php:877
+msgid "Open Menu Styler"
+msgstr "فتح قائمة التصميم"
+
+#: add-to-any.php:882
+msgid "Menu Options"
+msgstr "خيارات القائمة"
+
+#: add-to-any.php:887
+msgid "Only show the menu when the user clicks the Share/Save button"
+msgstr "عرض القائمة عن الضغط عليها فقط"
+
+#: add-to-any.php:892
+msgid "Show the title of the post (or page) within the menu"
+msgstr "عرض عنوان التدوينة او الصفحة في القائمة"
+
+#: add-to-any.php:897
+msgid "Additional Options"
+msgstr "خيارات خاصة"
+
+#: add-to-any.php:901
+msgid "Paste the code from AddToAny's Menu Styler in the box below!"
+msgstr "ألصق الكود من قائمة تصميم أضف إلى في هذا المربع"
+
+#: add-to-any.php:905
+msgid "Below you can set special JavaScript variables to apply to each Share/Save menu."
+msgstr "يمكنك ضبط متغيرات جافا سكريبت خاصة لتنفيزها على قائمة نشر/حفظ"
+
+#: add-to-any.php:906
+msgid "Advanced users might want to explore AddToAny's <a href=\"http://www.addtoany.com/buttons/customize/\" target=\"_blank\">additional options</a>."
+msgstr "المستخدمين المتقدمين قد يحتاجون إلى تصفح أضف إلى <a href=\"http://www.addtoany.com/buttons/customize/\" target=\"_blank\">جافا سكريبت API</a>."
+
+#: add-to-any.php:912
+msgid "<strong>Note</strong>: If you're adding new code, be careful not to accidentally overwrite any previous code.</label>"
+msgstr "<strong>ملحوظة</strong>: إذا أضفت اكواد جديدة, كن حزر حتى لا تمسح اكواد قديمة.</label>"
+
+#: add-to-any.php:917
+msgid "Advanced Options"
+msgstr "خيارات خاصة "
+
+#: add-to-any.php:922
+msgid "Use CSS stylesheet"
+msgstr "استخدام استايل CSS"
+
+#: add-to-any.php:927
+msgid "Cache AddToAny locally with daily cache updates"
+msgstr "حفظ AddToAny بشكل داخلي مع تحديث للمحفوظات بشكل يومي."
+
+#: add-to-any.php:931
+msgid "Only consider for sites with frequently returning visitors. Since many visitors will have AddToAny cached in their browser already, serving AddToAny locally from your site will be slower for those visitors.  Be sure to set far future cache/expires headers for image files in your <code>uploads/addtoany</code> directory."
+msgstr "إن الكثير من الزوار سوف يكون لديهم AddToAny مخزنة بشكل تلقائي في متصفحاتهم، تشغيل هذه الإضافة بشكل محلي من موقعك قد يبطئ عرضها لهؤلاء الزوار. كن متأكداً تأكد من ضبط ترويسات (الكاش) للصور في مجلد <code>uploads/addtoany</code>."
+
+#: add-to-any.php:938
+msgid "Save Changes"
+msgstr "حفظ التغيرات"
+
+#: add-to-any.php:939
+msgid "Are you sure you want to delete all AddToAny options?"
+msgstr "هل أنت متأكد من حذف جميع خيارات الإضافة؟"
+
+#: add-to-any.php:939
+msgid "Reset"
+msgstr "مسح"
+
+#: add-to-any.php:944
+msgid "Like this plugin?"
+msgstr "هل تحب هذه الأضافة؟"
+
+#: add-to-any.php:945
+msgid "<a href=\"http://wordpress.org/extend/plugins/add-to-any/\">Give it a good rating</a> on WordPress.org."
+msgstr "<a href=\"http://wordpress.org/extend/plugins/add-to-any/\">قيمها</a> في موقع WordPress.org."
+
+#: add-to-any.php:946
+msgid "<a href=\"http://www.addtoany.com/share_save?linkname=WordPress%20Share%20%2F%20Bookmark%20Plugin%20by%20AddToAny.com&amp;linkurl=http%3A%2F%2Fwordpress.org%2Fextend%2Fplugins%2Fadd-to-any%2F\">Share it</a> with your friends."
+msgstr "<a href=\"http://www.addtoany.com/share_save?linkname=WordPress%20Share%20Plugin%20by%20AddToAny.com&amp;linkurl=http%3A%2F%2Fwordpress.org%2Fextend%2Fplugins%2Fadd-to-any%2F\">أنشرها</a> مع أصدقائك."
+
+#: add-to-any.php:948
+msgid "Need support?"
+msgstr "بحاجة إلى الدعم؟"
+
+#: add-to-any.php:949
+msgid "See the <a href=\"http://wordpress.org/extend/plugins/add-to-any/faq/\">FAQs</a>."
+msgstr "راجع <a href=\"http://wordpress.org/extend/plugins/add-to-any/faq/\">الأسئلة الشائعة</a>."
+
+#: add-to-any.php:950
+msgid "Search the <a href=\"http://wordpress.org/tags/add-to-any\">support forums</a>."
+msgstr "أبحث في <a href=\"http://wordpress.org/tags/add-to-any\">منتديات الدعم</a>."
+
+#: add-to-any.php:1075
+msgid "Add/Remove Services"
+msgstr "إضافة/ألغاء خدمات"
+
+#: add-to-any.php:1132
+msgid "Share/Save"
+msgstr "نشر/حفظ"
+
+#: add-to-any.php:1133
+msgid "Share/Save Buttons"
+msgstr "أزرار نشر/حفظ"
+
+#~ msgid ""
+#~ "Open the addtoany.com menu page in a new tab or window if the user clicks "
+#~ "the Share/Save button"
+#~ msgstr "فتح موقع addtoany.com عند ضغط الزائر على زر نشر/حفظ"
+
+#~ msgid ""
+#~ "Hide embedded objects (Flash, video, etc.) that intersect with the menu "
+#~ "when displayed"
+#~ msgstr "أخفاء (الفلاشات والفيديو و ... الخ) التي تتقاطع مع القائمة"

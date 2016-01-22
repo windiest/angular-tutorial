@@ -1,0 +1,214 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ioannis 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/si-captcha-for-wordpress\n"
+"POT-Creation-Date: 2008-12-14 17:48+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ιωάννης Μπαρούνης <johnbarounis@yahoo.gr>\n"
+"Language-Team:  <jbqwerty@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: GREECE\n"
+
+#: si-captcha.php:38
+#: si-captcha.php:99
+msgid "SI Captcha Options"
+msgstr "Επιλογές SI Captcha"
+
+#: si-captcha.php:62
+msgid "You do not have permissions for managing this option"
+msgstr "Δεν έχετε δικαιώματα για τη διαχείριση αυτής της επιλογής"
+
+#: si-captcha.php:96
+msgid "Options saved."
+msgstr "Επιλογές αποθηκεύτικαν."
+
+#: si-captcha.php:102
+msgid "Your theme must have a"
+msgstr "Το θέμα πρέπει να έχει ένα"
+
+#: si-captcha.php:102
+msgid "tag inside your comments.php form. Most themes do."
+msgstr "tag μέσα στην comments.php φόρμα. Τα περισσότερα το έχουν."
+
+#: si-captcha.php:103
+msgid "The best place to locate the tag is before the comment textarea, you may want to move it if it is below the comment textarea, or the captcha image and captcha code entry might display after the submit button."
+msgstr "Το καλύτερο μέρος για να τοποθετήσετε το tag είναι πριν το textarea του σχολίου, ίσως θέλετε να το μετακινήσετε αν είναι κάτω από το textarea, ή η εικόνα captcha και το πλαίσιο εισαγωγής κωδικού κάτω από το κουμπί αποστολής σχολίου."
+
+#: si-captcha.php:115
+msgid "CAPTCHA on Register Form:"
+msgstr "CAPTCHA στην φόρμα Εγγραφής:"
+
+#: si-captcha.php:119
+msgid "Enable CAPTCHA on the register form."
+msgstr "Ενεργοποίηση CAPTCHA στην φόρμα εγγραφής."
+
+#: si-captcha.php:124
+msgid "CAPTCHA on Comment Form:"
+msgstr "CAPTCHA στη φόρμα σχολίων."
+
+#: si-captcha.php:127
+msgid "Enable CAPTCHA on the comment form."
+msgstr "Ενεργοποίηση CAPTCHA στην φόρμα σχολίων."
+
+#: si-captcha.php:130
+msgid "Hide CAPTCHA for"
+msgstr "Απόκρυψη CAPTCHA για"
+
+#: si-captcha.php:131
+msgid "registered"
+msgstr "εγγεγραμμένους"
+
+#: si-captcha.php:132
+msgid "users who can:"
+msgstr "χρήστες οι οποίοι μπορούν να:"
+
+#: si-captcha.php:135
+msgid "CSS class name for CAPTCHA input field on the comment form"
+msgstr "Όνομα CSS κλάσης για το CAPTCHA πλαίσιο εισαγωγής στην φόρμα σχολίου"
+
+#: si-captcha.php:136
+msgid "(Enter a CSS class name only if your theme uses one for comment text inputs. Default is blank for none.)"
+msgstr "(Εισάγετε ένα όνομα CSS κλάσης μόνο στην περίπτωση την οποία το θέμα χρησιμοποιεί μια, για τα πλαίσια εισαγωγής σχολίων. Εξ ορισμού κενή.)"
+
+#: si-captcha.php:141
+msgid "Comment Form Rearrange:"
+msgstr "Αναδιάταξη Φόρμας Σχολίου:"
+
+#: si-captcha.php:145
+msgid "Change the display order of the catpcha input field on the comment form. (see note below)."
+msgstr "Αλλάξτε την σειρά εμφάνισης του captcha πεδίου εισαγωγής στην φόρμα σχολίου.(Δείτε την σημείωση παρακάτω)."
+
+#: si-captcha.php:152
+msgid "Problem:"
+msgstr "Πρόβλημα:"
+
+#: si-captcha.php:153
+msgid "Sometimes the captcha image and captcha input field are displayed AFTER the submit button on the comment form."
+msgstr "Μερικές φορές η εικόνα captcha και το captcha πεδίο εισαγωγής, εμφανίζονται ΜΕΤΑ το κουμπί αποστολής δεδομένων στην φόρμα του σχολίου."
+
+#: si-captcha.php:154
+msgid "Fix:"
+msgstr "Επιδιόρθωση:"
+
+#: si-captcha.php:155
+msgid "Edit your current theme comments.php file and locate this line:"
+msgstr "Ανοίξτε προς επεξεργασία το αρχείο comments.php του τρέχοντος θέματος και εντοπίστε τη γραμμή αυτή:"
+
+#: si-captcha.php:157
+msgid "This tag is exactly where the captcha image and captcha code entry will display on the form, so move the line to BEFORE the comment textarea, uncheck the option box above, and the problem should be fixed."
+msgstr "Αυτό το tag είναι εκείνο που εμφανίζει την captcha εικόνα και το πεδίο εισαγωγής κωδικού στην φόρμα, έτσι μετακινήστε το ΠΡΙΝ το textarea σχολίου, αποεπιλέξτε το παραπάνω κουτί επιλογής και το πρόβλημα θα διορθωθεί."
+
+#: si-captcha.php:158
+msgid "Alernately you can just check the box above and javascript will attempt to rearrange it for you, but editing the comments.php, moving the tag, and unchecking this box is the best solution."
+msgstr "Εναλλακτικά μπορείτε απλώς να επιλέξετε το παραπάνω κουτί και η javascript θα προσπαθήσει να το αναδιατάξει για εσάς, αλλά επεξεργάζοντας το comments.php, μετακινώντας το tag και αποεπιλέγοντας αυτό το κουμπί είναι η καλύτερη επιλογή."
+
+#: si-captcha.php:159
+msgid "Why is it better to uncheck this and move the tag? because the XHTML will no longer validate on the comment page if it is checked."
+msgstr "Γιατί είναι καλύτερο να το αποεπιλέξω και να μετακινήσω το tag; Επειδή η XHTML δεν επικυρώνει την σελίδα σχολίων αν είναι επιλεγμένο."
+
+#: si-captcha.php:162
+msgid "Update Options"
+msgstr "Ενημέρωση Επιλογών"
+
+#: si-captcha.php:172
+msgid "All registered users"
+msgstr "Όλοι οι εγγεγραμμένοι χρήστες"
+
+#: si-captcha.php:173
+msgid "Edit posts"
+msgstr "Επεξεργάζονται άρθρα"
+
+#: si-captcha.php:174
+msgid "Publish Posts"
+msgstr "Δημοσιεύουν άρθρα"
+
+#: si-captcha.php:175
+msgid "Moderate Comments"
+msgstr "Μετρίαζουν Σχόλια"
+
+#: si-captcha.php:176
+msgid "Administer site"
+msgstr "Ιστότοπος Διαχειριστή"
+
+#: si-captcha.php:195
+msgid "ERROR: si-captcha.php plugin says GD image support not detected in PHP!"
+msgstr "Σφάλμα: το πρόσθετο si-captcha.php αναφέρει ότι δεν βρέθηκε υποστήριξη για το GD image στην PHP!"
+
+#: si-captcha.php:196
+msgid "Contact your web host and ask them why GD image support is not enabled for PHP."
+msgstr "Επικοινωνήστε με τον παροχέα σας και ρωτήστε τον γιατί δεν είναι ενεργοποιημένη η υποστήριξη για GD image στην PHP."
+
+#: si-captcha.php:200
+msgid "ERROR: si-captcha.php plugin says imagepng function not detected in PHP!"
+msgstr "Σφάλμα: το πρόσθετο si-captcha.php αναφέρει ότι δεν βρέθηκε η συνάρτηση imagepng στην PHP!"
+
+#: si-captcha.php:201
+msgid "Contact your web host and ask them why imagepng function is not enabled for PHP."
+msgstr "Επικοινωνήστε με τον παροχέα σας και ρωτήστε τον γιατί η συνάρτηση imagepng δεν είναι ενεργοποιημένη για την PHP."
+
+#: si-captcha.php:205
+msgid "ERROR: si-captcha.php plugin says captcha_library not found."
+msgstr "Σφάλμα: το πρόσθετο si-captcha.php αναφέρει ότι δεν βρέθηκε η βιβλιοθήκη captcha_library."
+
+#: si-captcha.php:240
+#: si-captcha.php:302
+msgid "CAPTCHA Image"
+msgstr "Εικόνα CAPTCHA"
+
+#: si-captcha.php:241
+#: si-captcha.php:303
+msgid "Audible Version of CAPTCHA"
+msgstr "Ακουστική Έκδοση του CAPTCHA"
+
+#: si-captcha.php:242
+#: si-captcha.php:304
+msgid "Audio Version"
+msgstr "Ηχητική Έκδοση"
+
+#: si-captcha.php:244
+#: si-captcha.php:306
+msgid "Refresh Image"
+msgstr "Ανανέωση Εικόνας"
+
+#: si-captcha.php:246
+#: si-captcha.php:308
+msgid "Reload Image"
+msgstr "Επαναφόρτωση Εικόνας"
+
+#: si-captcha.php:257
+#: si-captcha.php:313
+msgid "CAPTCHA Code (required)"
+msgstr "Κωδικός CAPTCHA (απαιτείτε)"
+
+#: si-captcha.php:275
+msgid "Submit Comment"
+msgstr "Αποστολή Σχολίου"
+
+#: si-captcha.php:327
+#: si-captcha.php:341
+#: si-captcha.php:351
+#: si-captcha.php:364
+msgid "ERROR"
+msgstr "ΣΦΑΛΜΑ"
+
+#: si-captcha.php:327
+#: si-captcha.php:351
+msgid "Please complete the CAPTCHA."
+msgstr "Παρακαλώ συμπληρώστε το CAPTCHA"
+
+#: si-captcha.php:341
+#: si-captcha.php:364
+msgid "That CAPTCHA was incorrect."
+msgstr "Αυτός ο CAPTCHA κωδικός ήτο λανθασμένος."
+
+#: si-captcha.php:399
+msgid "Error: You did not enter a Captcha phrase. Press your browsers back button and try again."
+msgstr "Σφάλμα: Δεν εισαγάγατε μια Captcha φράση. Πατήστε το κουμπί όπισθεν μετάβασης του φυλλομετρητή σας και ξαναδοκιμάστε."
+
+#: si-captcha.php:411
+msgid "Error: You entered in the wrong Captcha phrase. Press your browsers back button and try again."
+msgstr "Σφάλμα: Εισαγάγατε λανθασμένη Captcha φράση. Πατήστε το κουμπί όπισθεν μετάβασης του φυλλομετρητή σας και ξαναδοκιμάστε."
+

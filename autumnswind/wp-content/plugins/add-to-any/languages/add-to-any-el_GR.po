@@ -1,0 +1,292 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: add-to-any\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-23 20:40-0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Harry <camanatidis@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: add-to-any.php:322
+msgid "Share"
+msgstr "Μοιραστείτε"
+
+#: add-to-any.php:323
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: add-to-any.php:324
+msgid "Subscribe"
+msgstr "Εγγραφείτε"
+
+#: add-to-any.php:325
+msgid "E-mail"
+msgstr "E-mail"
+
+#: add-to-any.php:326
+msgid "Bookmark"
+msgstr "Προσθήκη στα Αγαπημένα"
+
+#: add-to-any.php:327
+msgid "Show all"
+msgstr "Προβολή όλων"
+
+#: add-to-any.php:328
+msgid "Show less"
+msgstr "Προβολή λιγότερων"
+
+#: add-to-any.php:329
+msgid "Find service(s)"
+msgstr "Αναζήτηση υπηρεσίας(ιών)"
+
+#: add-to-any.php:330
+msgid "Instantly find any service to add to"
+msgstr "Άμεση προσθήκη κάθε υπηρεσίας"
+
+#: add-to-any.php:331
+msgid "Powered by"
+msgstr "Powered by"
+
+#: add-to-any.php:332
+msgid "Share via e-mail"
+msgstr "Μοιραστείτε μέσω e-mail"
+
+#: add-to-any.php:333
+msgid "Subscribe via e-mail"
+msgstr "Εγγραφείτε μέσω e-mail"
+
+#: add-to-any.php:334
+msgid "Bookmark in your browser"
+msgstr "Προσθήκη στα Αγαπημένα μέσα από τον σελιδοδείκτη σας"
+
+#: add-to-any.php:335
+msgid "Press Ctrl+D or &#8984;+D to bookmark this page"
+msgstr "Πατήστε Ctrl+D or &#8984;+D για να προσθέσετε τη σελίδα στα Αγαπημένα σας"
+
+#: add-to-any.php:336
+msgid "Add to your favorites"
+msgstr "Προσθήκη στα Αγαπημένα"
+
+#: add-to-any.php:337
+msgid "Send from any e-mail address or e-mail program"
+msgstr "Αποστολή από οποιοδήποτε e-mail διεύθυνση ή e-mail πρόγραμμα"
+
+#: add-to-any.php:338
+msgid "E-mail program"
+msgstr "E-mail πρόγραμμα"
+
+#: add-to-any.php:363
+msgid "Your theme needs to be fixed. To fix your theme, use the <a href=\"theme-editor.php\">Theme Editor</a> to insert <code>&lt;?php wp_footer(); ?&gt;</code> just before the <code>&lt;/body&gt;</code> line of your theme's <code>footer.php</code> file."
+msgstr "Το θέμα σας απαιτεί επιδιόρθωση. Για να διορθώσετε το θέμα σας, χρησιμοποιήστε τον <a href=\"theme-editor.php\">Συντάκτη Θέματος</a> εισάγοντας <code>&lt;?php wp_footer(); ?&gt;</code> ακριβώς πριν τη γραμμή<code>&lt;/body&gt;</code> του <code>footer.php</code> αρχείου του θέματός σας."
+
+#: add-to-any.php:520
+#, php-format
+msgid "Unable to create directory %s. Is its parent directory writable by the server?"
+msgstr "Αδύνατη η δημιουργία του καταλόγου %s. Είναι εγγράψιμος ο κατάλογος απο τον διακομιστή;"
+
+#: add-to-any.php:654
+#: add-to-any.php:778
+#: add-to-any.php:782
+#: add-to-any.php:786
+#: add-to-any.php:790
+#: add-to-any.php:822
+msgid "Share/Bookmark"
+msgstr "Μοιραστείτε/Αγαπημένα"
+
+#: add-to-any.php:667
+msgid "Settings saved."
+msgstr "Ρυθμίσεις αποθηκεύτηκαν."
+
+#: add-to-any.php:688
+msgid "bottom"
+msgstr "κάτω"
+
+#: add-to-any.php:692
+msgid "top"
+msgstr "επάνω"
+
+#: add-to-any.php:696
+msgid "top &amp; bottom"
+msgstr "επάνω &amp; κάτω"
+
+#: add-to-any.php:727
+msgid "AddToAny: Share/Save "
+msgstr "AddToAny: Μοιραστείτε/Αποθήκευση"
+
+#: add-to-any.php:727
+#: add-to-any.php:1132
+#: add-to-any.php:1163
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: add-to-any.php:736
+msgid "Standalone Services"
+msgstr "Αυτόνομες Υπηρεσίες"
+
+#: add-to-any.php:741
+msgid "Choose the services you want below. &nbsp;Click a chosen service again to remove. &nbsp;Reorder services by dragging and dropping as they appear above."
+msgstr "Επιλέξτε τις παρακάτω υπηρεσίες που επιθυμείτε. &nbsp;Κάντε κλικ σε μια επιλεγμένη υπηρεσία και πάλι για να την καταργήσετε. &nbsp;Αναδιάταξη των υπηρεσιών με μεταφορά και απόθεση όπως εμφανίζονται παραπάνω."
+
+#: add-to-any.php:773
+msgid "Button"
+msgstr "Κουμπί"
+
+#: add-to-any.php:812
+msgid "Image URL"
+msgstr "URL εικόνας"
+
+#: add-to-any.php:819
+msgid "Text only"
+msgstr "Μόνο κείμενο"
+
+#: add-to-any.php:827
+msgid "Placement"
+msgstr "Τοποθέτηση"
+
+#: add-to-any.php:832
+#, php-format
+msgid "Display at the %s of posts"
+msgstr "Εμφάνιση στο %s των δημοσιεύσεων"
+
+#: add-to-any.php:839
+#, php-format
+msgid "Display at the %s of post excerpts"
+msgstr "Εμφάνιση στο %s των αποσπασμάτων δημοσιεύσεων"
+
+#: add-to-any.php:846
+#, php-format
+msgid "Display at the %s of posts on the front page"
+msgstr "Εμφάνιση στο %s των δημοσιεύσεων στην κεντρική σελίδα"
+
+#: add-to-any.php:854
+#, php-format
+msgid "Display at the %s of posts in the feed"
+msgstr "Εμφάνιση στο %s των δημοσιεύσεων στο feed"
+
+#: add-to-any.php:858
+#, php-format
+msgid "Display at the %s of pages"
+msgstr "Εμφάνιση στο %s των σελίδων"
+
+#: add-to-any.php:862
+msgid "If unchecked, be sure to place the following code in <a href=\"theme-editor.php\">your template pages</a> (within <code>index.php</code>, <code>single.php</code>, and/or <code>page.php</code>)"
+msgstr "Εαν δεν είναι επιλεγμένο, βεβαιωθείτε να τοποθετήσετε τον ακόλουθο κώδικα στις <a href=\"theme-editor.php\">σελίδες πρότυπό σας</a> (εντός <code>index.php</code>, <code>single.php</code>, και/ή <code>page.php</code>)"
+
+#: add-to-any.php:871
+msgid "Menu Style"
+msgstr "Στυλ Μενού"
+
+#: add-to-any.php:873
+msgid "Using AddToAny's Menu Styler, you can customize the colors of your Share/Save menu! When you're done, be sure to paste the generated code in the <a href=\"#\" onclick=\"document.getElementById('A2A_SHARE_SAVE_additional_js_variables').focus();return false\">Additional Options</a> box below."
+msgstr "Χρησιμοποιώντας τον Διαμορφωτή Μενού, μπορείτε να προσαρμόσετε τα χρώματα του Μοιραστείτε/Αποθήκευση μενού! Όταν τελειώσετε, να είστε βέβαιος να επικολλήσετε τον κώδικα που έχει δημιουργηθεί στο παρακάτω πλαίσιο <a href=\"#\" onclick=\"document.getElementById('A2A_SHARE_SAVE_additional_js_variables').focus();return false\">Πρόσθετες Επιλογές</a>."
+
+#: add-to-any.php:875
+msgid "Open the AddToAny Menu Styler in a new window"
+msgstr "Άνοιγμα Διαμορφωτή Μενού του AddToAny σε νέο παράθυρο "
+
+#: add-to-any.php:877
+msgid "Open Menu Styler"
+msgstr "Άνοιγμα Διαμορφωτή Μενού"
+
+#: add-to-any.php:882
+msgid "Menu Options"
+msgstr "Επιλογές Mενού"
+
+#: add-to-any.php:887
+msgid "Only show the menu when the user clicks the Share/Save button"
+msgstr "Προβολή μόνο όταν ο χρήστης κάνει κλικ στο κουμπί Μοιραστείτε/Αποήκευση"
+
+#: add-to-any.php:892
+msgid "Show the title of the post (or page) within the menu"
+msgstr "Δείτε τον τίτλο της δημοσίευσης (ή σελίδας) μέσα από το μενού"
+
+#: add-to-any.php:897
+msgid "Additional Options"
+msgstr "Πρόσθετες Επιλογές"
+
+#: add-to-any.php:901
+msgid "Paste the code from AddToAny's Menu Styler in the box below!"
+msgstr "Επικολλήστε τον κώδικα από τον Διαμορφωτή Μενού του AddToAny στο παρακάτω πλαίσιο!"
+
+#: add-to-any.php:905
+msgid "Below you can set special JavaScript variables to apply to each Share/Save menu."
+msgstr "Παρακάτω μπορείτε να προσθέσετε ειδικές μεταβλητές JavaScript για κάθε μενού Μοιραστείτε/Αποθήκευση"
+
+#: add-to-any.php:906
+msgid "Advanced users might want to explore AddToAny's <a href=\"http://www.addtoany.com/buttons/customize/\" target=\"_blank\">additional options</a>."
+msgstr "Προχωρημένοι χρήστες ίσως να επιθυμούν να διερευνήσουν τις <a href=\"http://www.addtoany.com/buttons/customize/\" target=\"_blank\">πρόσθετες επιλογές</a> του AddToAny."
+
+#: add-to-any.php:912
+msgid "<strong>Note</strong>: If you're adding new code, be careful not to accidentally overwrite any previous code.</label>"
+msgstr "<strong>Σημείωση</strong>: Εάν θέλετε να προσθέσετε νέο κώδικα, προσέξτε να μην αντικαταστήσετε κατά λάθος προηγούμενο κώδικα.</label>"
+
+#: add-to-any.php:917
+msgid "Advanced Options"
+msgstr "Προχωρημένες Επιλογές"
+
+#: add-to-any.php:922
+msgid "Use CSS stylesheet"
+msgstr "Χρήση CSS stylesheet"
+
+#: add-to-any.php:927
+msgid "Cache AddToAny locally with daily cache updates"
+msgstr "Cache AddToAny τοπικά με  καθημερινές cache ενημερώσεις"
+
+#: add-to-any.php:931
+msgid "Only consider for sites with frequently returning visitors. Since many visitors will have AddToAny cached in their browser already, serving AddToAny locally from your site will be slower for those visitors.  Be sure to set far future cache/expires headers for image files in your <code>uploads/addtoany</code> directory."
+msgstr "Εξετάστε μόνο σε περίπτωση όταν οι επισκέπτες επιστρέφουν στον ιστότοπο συχνά. Επειδή πολλοί επισκέπτες θα έχουν το AddToAny αποθηκευμένο στο πρόγραμμα περιήγησής τους ήδη, εξυπηρετώντας το AddToAny τοπικά από το site σας θα είναι πιο αργό για τους επισκέπτες. Να είστε βέβαιος να ορίσετε αρκετά στο μέλλον τις cache/expires κεφαλίδες για τα αρχεία εικόνων στον <code>uploads/addtoany</ code> κατάλογο."
+
+#: add-to-any.php:938
+msgid "Save Changes"
+msgstr "Αποθήκευση Αλλαγών"
+
+#: add-to-any.php:939
+msgid "Are you sure you want to delete all AddToAny options?"
+msgstr "Είστε σίγουρος ότι θέλετε να καταργήσετε όλες τις ρυθμίσεις του AddToAny; "
+
+#: add-to-any.php:939
+msgid "Reset"
+msgstr "Επαναφορά"
+
+#: add-to-any.php:944
+msgid "Like this plugin?"
+msgstr "Σας αρέσει αυτό το πρόσθετο;"
+
+#: add-to-any.php:945
+msgid "<a href=\"http://wordpress.org/extend/plugins/add-to-any/\">Give it a good rating</a> on WordPress.org."
+msgstr "<a href=\"http://wordpress.org/extend/plugins/add-to-any/\">Αξιολογήστε το</a> στο WordPress.org."
+
+#: add-to-any.php:946
+msgid "<a href=\"http://www.addtoany.com/share_save?linkname=WordPress%20Share%20%2F%20Bookmark%20Plugin%20by%20AddToAny.com&amp;linkurl=http%3A%2F%2Fwordpress.org%2Fextend%2Fplugins%2Fadd-to-any%2F\">Share it</a> with your friends."
+msgstr "<a href=\"http://www.addtoany.com/share_save?linkname=WordPress%20Share%20%2F%20Bookmark%20Plugin%20by%20AddToAny.com&amp;linkurl=http%3A%2F%2Fwordpress.org%2Fextend%2Fplugins%2Fadd-to-any%2F\">Μοιραστείτε το</a> με τους φίλους σας."
+
+#: add-to-any.php:948
+msgid "Need support?"
+msgstr "Χρειάζεστε βοήθεια;"
+
+#: add-to-any.php:949
+msgid "See the <a href=\"http://wordpress.org/extend/plugins/add-to-any/faq/\">FAQs</a>."
+msgstr "Δείτε τις <a href=\"http://wordpress.org/extend/plugins/add-to-any/faq/\">Συχνές Ερωτήσεις</a>."
+
+#: add-to-any.php:950
+msgid "Search the <a href=\"http://wordpress.org/tags/add-to-any\">support forums</a>."
+msgstr "Αναζήτηση στα <a href=\"http://wordpress.org/tags/add-to-any\">Forums Υποστήριξης</a>."
+
+#: add-to-any.php:1075
+msgid "Add/Remove Services"
+msgstr "Προσθήκη/Κατάργηση Υπηρεσιών"
+
+#: add-to-any.php:1132
+msgid "Share/Save"
+msgstr "Μοιραστείτε/Αποθήκευση"
+
+#: add-to-any.php:1133
+msgid "Share/Save Buttons"
+msgstr "Μοιραστείτε/Αποθήκευση Κουμπιά"
+
