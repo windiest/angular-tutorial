@@ -66,7 +66,7 @@ StackOverflow里有这方面更多的详细分析:
 
 > 2016-01-21 by [@0xmtn](https://github.com/0xmtn/)
 
- This snippet here uses [Fisher-Yates Shuffling](https://www.wikiwand.com/en/Fisher%E2%80%93Yates_shuffle) Algorithm to shuffle a given array.
+ 这里本段使用费雪耶茨的洗牌算法 [Fisher-Yates Shuffling](https://www.wikiwand.com/en/Fisher%E2%80%93Yates_shuffle) Algorithm to shuffle a given array.
   
 ```javascript
 function shuffle(arr) {
@@ -82,7 +82,7 @@ function shuffle(arr) {
     return arr;    
 };
 ```
-An example:
+一个例子：
 
 ```javascript
 var a = [1, 2, 3, 4, 5, 6, 7, 8];
@@ -92,11 +92,11 @@ console.log(b);
 ```
 
 
-## #20 - Return objects to enable chaining of functions
+## #20 - 返回对象的链式函数
 
 > 2016-01-20 by [@WakeskaterX](https://twitter.com/WakeStudio)
 
-When creating functions on an object in Object Oriented Javascript, returning the object in the function will enable you to chain functions together.
+当在Javascript对象上创建函数，该函数返回对象，能让链的功能整合在一起。
 
 ```js
 function Person(name) {
@@ -117,11 +117,11 @@ var person = new Person("John");
 person.sayName().changeName("Timmy").sayName();
 ```
 
-## #19 - Safe string concatenation
+## #19 - 连接安全字符串
 
 > 2016-01-19 by [@gogainda](https://twitter.com/gogainda)
 
-Suppose you have a couple of variables with unknown types and you want to concatenate them in a string. To be sure that the arithmetical operation is not be applied during concatenation, use `concat`:
+假设你有几个未知类型的变量，你想将它们串联成一个字符串。为了确保拼接过程发生算术运算，使用`concat`：
 
 ```javascript
 var one = 1;
@@ -131,7 +131,7 @@ var three = '3';
 var result = ''.concat(one, two, three); //"123"
 ```
 
-This way of concatenting does exactly what you'd expect. In contrast, concatenation with pluses might lead to unexpected results:
+这样的结果不是你所期望的东西。与此相反，连接带加号可能会导致意外的结果：
 ```javascript
 var one = 1;
 var two = 2;
@@ -140,7 +140,7 @@ var three = '3';
 var result = one + two + three; //"33" instead of "123"
 ```
 
-Speaking about performance, compared to the `join` [type](http://www.sitepoint.com/javascript-fast-string-concatenation/) of concatenation, the speed of `concat` is pretty much the same.
+性能上, 相比 `join` [type](http://www.sitepoint.com/javascript-fast-string-concatenation/) of concatenation, the speed of `concat` is pretty much the same.
 
 You can read more about the `concat` function on MDN [page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat).
 
