@@ -140,17 +140,17 @@ var three = '3';
 var result = one + two + three; //"33" instead of "123"
 ```
 
-性能上, 相比 `join` [type](http://www.sitepoint.com/javascript-fast-string-concatenation/) of concatenation, the speed of `concat` is pretty much the same.
+性能上, 相比 `join` [type](http://www.sitepoint.com/javascript-fast-string-concatenation/), 与`concat` 速度几乎是相同的
 
-You can read more about the `concat` function on MDN [page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat).
+你可以阅读更多有关 `concat` 的用法在MDN上 [page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat).
 
-## #18 - Rounding the fast way
+## #18 - 四舍五入的快速方法
 
 > 2016-01-18 by [pklinger](https://github.com/pklinger)
 
-Today's tip is about performance. [Ever came across the double tilde] (http://stackoverflow.com/questions/5971645/what-is-the-double-tilde-operator-in-javascript) `~~` operator? It is sometimes also called the double NOT bitwise operator. You can use it as a faster substitute for `Math.floor()`. Why is that?
+今天的技巧跟性能有关. [自从遇到了这个双重波浪] (http://stackoverflow.com/questions/5971645/what-is-the-double-tilde-operator-in-javascript) `~~` 的操作符? 它有时也被称为（两个）双NOT位操作符。 您可以使用它来更快的替代 `Math.floor()`。 这是为什么呢？
 
-One bitwise shift `~` transforms the 32 bit converted input into `-(input+1)`. The double bitwise shift therefore transforms the input into `-(-(input + 1)+1)` making it a great tool to round towards 0. For numeric input, it therefore mimics the `Math.ceil()` for negative and `Math.floor()` for positive input. On failure, `0` is returned, which might come in handy sometimes instead of `Math.floor()`, which returns a value of `NaN` on failure.
+一个位运算 `~` 经过32位变换会变成 `-(input+1)`。 因此，双按位运算会变换为 `-(-(input + 1)+1)`使其成为一个伟大的运算方法. 进行数字输入, 将会跟这个函数的功能类似 `Math.ceil()` 变成负就会变成 `Math.floor()` . 如果失败, `0` 就会被返回, 其中可能出现的派上用场来代替 `Math.floor()`, 它返回一个值 `NaN` 表示失败.
 
 ```javascript
 // single ~
@@ -167,36 +167,36 @@ console.log(~~[]) // -> 0
 console.log(~~NaN)  // -> 0
 console.log(~~null) // -> 0
 
-// greater than 32 bit integer fails
+// 大于32位整数 失败
 console.log(~~(2147483647 + 1) === (2147483647 + 1)) // -> 0
 ```
 
-Although `~~` may perform better, for the sake of readability please use `Math.floor()`. 
+虽然 `~~` 可以表现得更好, 但为了可读性，请使用 `Math.floor()`. 
 
 ## #17 - Node.js: Run a module if it is not "required"
 
 > 2016-01-17 by [@odsdq](https://twitter.com/odsdq)
 
-In node, you can tell your program to do two different things depending on whether the code is run from `require('./something.js')` or `node something.js`.  This is useful if you want to interact with one of your modules independently.
+在node中, 你可以告诉你的程序做两个不同的事情，这取决于该代码是运行于 `require('./something.js')` 还是 `node something.js`。 如果你想与你的一个独立的模块进行交互，这非常有用。
 
 ```js
 if (!module.parent) {
-    // ran with `node something.js`
+    // 运行 `node something.js`
     app.listen(8088, function() {
         console.log('app listening on port 8088');
     })
 } else {
-    // used with `require('/.something.js')`
+    // 使用 `require('/.something.js')`
     module.exports = app;
 }
 ```
 
-See [the documentation for modules](https://nodejs.org/api/modules.html#modules_module_parent) for more info.
+请参考 [the documentation for modules](https://nodejs.org/api/modules.html#modules_module_parent) 来获得更多信息。
 
-## #16 - Passing arguments to callback functions
+## #16 - 将参数传递给回调函数
 > 2016-01-16 by [@minhazav](https://twitter.com/minhazav)
 
-By default you cannot pass arguments to a callback function. For example:
+默认情况下，你不能传递参数给回调函数。例如：
 ```js
 function callback() {
   console.log('Hi human');
@@ -204,7 +204,7 @@ function callback() {
 
 document.getElementById('someelem').addEventListener('click', callback);
 ```
-You can take advantage of the closure scope in Javascript to pass arguments to callback functions. Check this example:
+你可以利用JavaScript中的闭包范围的特点将参数传递给回调函数。看看这个例子：
 ```js
 function callback(a, b) {
   return function() {
