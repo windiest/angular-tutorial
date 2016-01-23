@@ -1,36 +1,30 @@
 ![header](https://raw.githubusercontent.com/loverajoel/jstips/master/resources/jstips-header-blog.gif)
 
-# Introducing JavaScript Tips [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-> New year, new project. **A JS tip per day!**
+# 介绍JavaScript的小技巧 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+> 新的一年，新的项目。每天一个JS小技巧！
 
-With great excitement, I introduce these short and useful daily JavaScript tips that will allow you to improve your code writing. With less than 2 minutes each day, you will be able to read about performance, conventions, hacks, interview questions and all the items that the future of this awesome language holds for us.
+有点点小兴奋，我将介绍这些短期的和有用的日常JavaScript技巧，能让你提高你的代码编写。花每一天不到2分钟的时间，你就能了解性能，约定，黑客，面试问题，所有这些知识将会给我们的以后的项目带来帮助。
 
-At midday, no matter if it is a weekend or a holiday, a tip will be posted and tweeted.
+无论是周末或假日，这些小技巧都会更新内容。
 
-### Can you help us enrich it?
-Please feel free to send us a PR with your own JavaScript tip to be published here.
-Any improvements or suggestions are more than welcome!
-[Click to see the instructions](https://github.com/loverajoel/jstips/blob/master/CONTRIBUTING.md)
+### 你也能帮助我们充实这些知识点？
+请随时向我们发送的邮件，或者在这里发表您自己的JavaScript技巧。任何改进或建议，非常欢迎！
 
-### Let’s keep in touch
-To get updates, watch the repo and follow the [Twitter account](https://twitter.com/tips_js). Only one tweet will be sent per day. It is a deal!
-> Don't forget to Star the repo, as this will help to promote the project!
-
-# Tips list
+# 技巧列表
 
 
-## #22 - Empty an Array
+## #22 - 空数组
 
 > 2016-01-22 by [microlv](https://github.com/microlv)
 
-You define an array and want to empty its contents.
-Usually, you would do it like this:
+您可以定义一个数组，并希望清空其内容：
+通常情况下，你会做这样的：
 
 ```javascript
-// define Array
+// 定义数组
 var list = [1, 2, 3, 4];
 function empty() {
-    //empty your array
+    //清空你的数组
     list = [];
 }
 empty();
