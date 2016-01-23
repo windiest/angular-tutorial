@@ -1,4 +1,5 @@
-# 介绍JavaScript的小技巧【译】 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/AutumnsWind/My-blog)
+# 介绍JavaScript的小技巧
+AutumnsWind【译】 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/AutumnsWind/My-blog)
 > 新的一年，新的项目。每天一个JS小技巧！
 
 有点点小兴奋，我将介绍这些短期的和有用的日常JavaScript技巧，能让你提高你的代码编写。花每一天不到2分钟的时间，你就能了解性能，约定，黑客，面试问题，所有这些知识将会给我们的以后的项目带来帮助。
