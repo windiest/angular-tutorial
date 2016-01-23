@@ -29,25 +29,24 @@ function empty() {
 }
 empty();
 ```
-But there is another way to empty an array that is more performant.
+但还有另一种方式来清空一个数组，它能带来更好的性能。
 
-You should use code like this:
+你应该使用这样的代码：
 ```javascript
 var list = [1, 2, 3, 4];
 function empty() {
-    //empty your array
+    //清空你的数组
     list.length = 0;
 }
 empty();
 ```
-* `list = []` assigns a reference to a new array to a variable, while any other references are unaffected.
-which means that references to the contents of the previous array are still kept in memory, leading to memory leaks.
+* `list = []` 分配引用一个新的数组变量，而其他任何引用都不会受到影响。这意味着引用先前数组的内容仍保留在内存中，从而导致内存泄漏。
 
-* `list.length = 0` deletes everything in the array, which does hit other references.
+* `list.length = 0` 删除所有的阵列，而不会导致内存泄露。
 
-However, if you have a copy of the array (A and Copy-A), if you delete its contents using `list.length = 0`, the copy will also lose its contents.
+但是，如果你有数组（A和复制-A）的副本，如果你使用list.length = 0删除其内容，则副本也将失去其内容。
 
-Think about what will output:
+思考一下它将会将输出什么：
 ```js
 var foo = [1,2,3];
 var bar = [1,2,3];
@@ -59,11 +58,11 @@ console.log(foo, bar, foo2, bar2);
 
 //[] [] [1, 2, 3] []
 ```
-Stackoverflow more detail:
+StackOverflow里有这方面更多的详细分析:
 [difference-between-array-length-0-and-array](http://stackoverflow.com/questions/4804235/difference-between-array-length-0-and-array)
 
 
-## #21 - Shuffle an Array
+## #21 - 给数组重新“洗牌”
 
 > 2016-01-21 by [@0xmtn](https://github.com/0xmtn/)
 
