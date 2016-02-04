@@ -1,4 +1,4 @@
-# 介绍JavaScript的小技巧
+# JavaScript的小技巧
 AutumnsWind translation from loverajoel [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/AutumnsWind/My-blog)
 
 > 新的一年，新的项目。每天一个JS小技巧！
