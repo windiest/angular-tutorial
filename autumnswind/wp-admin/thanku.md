@@ -1,8 +1,6 @@
 http://www.imperialsprings.com/cn/
 
-http://ipad.imperialsprings.com/
-
-http://mobile.thebayview.com.cn/in/dzdl/ 
+http://mobile.thebayview.com.cn/in/dzdl/index.php/archives/111
 
 http://t.cn/RGBwD8B
 
