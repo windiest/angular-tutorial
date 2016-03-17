@@ -3,7 +3,8 @@ http://www.ghbank.com.cn/
 
 下面这个是未发布的测试页面地址 【内测中，可能用Chrome打开比较好】
 新旧两种风格，新版本正在尝试扁平化设计 
-http://mobile.thebayview.com.cn/Test/hxbank/01index.html 
+http://mobile.thebayview.com.cn/Test/hxbank/01index.html
+
 http://mobile.thebayview.com.cn/Test/hxbank/15introduce.html
 
 Kingold Group官网
