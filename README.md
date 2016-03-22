@@ -246,7 +246,7 @@ if (someText.indexOf('javascript') >= 0) {
 }
 ```
 
-But let's look at these [Expressjs](https://github.com/strongloop/express) code snippets.
+But let's look at these [Expressjs](https://github.com/expressjs/express) code snippets.
 
 [examples/mvc/lib/boot.js](https://github.com/strongloop/express/blob/2f8ac6726fa20ab5b4a05c112c886752868ac8ce/examples/mvc/lib/boot.js#L26)
 ```javascript
@@ -483,7 +483,7 @@ To make things easier to read, declare all of your variables at the top of your 
 
 ## #10 - Check if a property is in a Object
 
-> 2016-01-10 by [@loverajoel](https://www.twitter.com/loverajoel)
+> 2016-01-10 by [@loverajoel](https://twitter.com/loverajoel)
 
 When you have to check if a property is present in an [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects), you probably are doing something like this:
 
@@ -558,9 +558,9 @@ console.log(`My name is ${firstName} ${lastName}`);
 You can do multi-line strings without `\n` and simple logic (ie 2+3) inside `${}` in template strings.
 
 You are also able to to modify the output of template strings using a function; they are called [tagged template strings]
-(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/template_strings#Tagged_template_strings) for example usages of tagged template strings.
+(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Tagged_template_strings) for example usages of tagged template strings.
 
-You may also want to [read](https://hacks.mozilla.org/2015/05/es6-in-depth-template-strings-2) to understand template strings more.
+You may also want to [read](https://hacks.mozilla.org/2015/05/es6-in-depth-template-strings-2/) to understand template strings more.
 
 ## #08 - Converting a Node List to an Array
 
